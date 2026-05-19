@@ -1,5 +1,4 @@
-```text
- ______  _______  __   __  _______  _______
+______  _______  __   __  _______  _______
 |      ||  _    ||  | |  ||       ||       |
 |  _    || |_|   ||  |_|  ||_     _||    ___|
 | | |   ||       ||       |  |   |  |   |___
@@ -8,13 +7,12 @@
 |______||_______|  |___|    |___|  |_______|
 
 GOD IS PERFECTLY JUST / HIGHS AND LOWS BALANCE / I WROTE A COMPILER NIGGER I AM SMARTER THAN LINUS I WROTE A KERNEL AND COMPILER
-```
 
-# [DByte](https://dbytelang.site/)
+# [DBYTE](https://dbytelang.site/)
 
-DByte is a statically checked, Python-like scripting language with a bytecode VM and a low-level standard library for binary parsing and buffer patching. It is built for byte work, binary patching, small tools, and personal computing experiments, with an emphasis on direct files, direct output, and fewer layers between the user and the machine. [Source](https://dbytelang.site/docs) [Source](https://dbytelang.site/about)
+DBYTE IS A STATICALLY CHECKED, PYTHON-LIKE SCRIPTING LANGUAGE WITH A BYTECODE VM AND A LOW-LEVEL STANDARD LIBRARY FOR BINARY PARSING AND BUFFER PATCHING. IT IS BUILT FOR BYTE WORK, BINARY PATCHING, SMALL TOOLS, AND PERSONAL COMPUTING EXPERIMENTS, WITH AN EMPHASIS ON DIRECT FILES, DIRECT OUTPUT, AND FEWER LAYERS BETWEEN THE USER AND THE MACHINE. [SOURCE](https://dbytelang.site/docs) [SOURCE](https://dbytelang.site/about)
 
-## [About DEADBYTE](https://dbytelang.site/about)
+## [ABOUT DEADBYTE](https://dbytelang.site/about)
 ---
 
 ## ☣️ CORE STACK
@@ -32,37 +30,37 @@ DByte is a statically checked, Python-like scripting language with a bytecode VM
 </p>
 
 ---
-DEADBYTE is the independent builder behind DByte. The project is presented plainly: not a company, not a committee, and not a corporate landing page. The stated direction is handmade software with visible fingerprints rather than polished abstraction for its own sake. [Source](https://dbytelang.site/about)
+DEADBYTE IS THE INDEPENDENT BUILDER BEHIND DBYTE. THE PROJECT IS PRESENTED PLAINLY: NOT A COMPANY, NOT A COMMITTEE, AND NOT A CORPORATE LANDING PAGE. THE STATED DIRECTION IS HANDMADE SOFTWARE WITH VISIBLE FINGERPRINTS RATHER THAN POLISHED ABSTRACTION FOR ITS OWN SAKE. [SOURCE](https://dbytelang.site/about)
 
-## [What DByte Does](https://dbytelang.site/)
+## [WHAT DBYTE DOES](https://dbytelang.site/)
 
-The public site describes DByte as a fast low-level scripting language for binary parsing, buffer patching, byte search, typed integer workloads, and automation scripts that need simple syntax with predictable performance. The listed standard library areas include filesystem access, encoding, hashing, buffers, binary operations, math, and environment access. [Source](https://dbytelang.site/)
+THE PUBLIC SITE DESCRIBES DBYTE AS A FAST LOW-LEVEL SCRIPTING LANGUAGE FOR BINARY PARSING, BUFFER PATCHING, BYTE SEARCH, TYPED INTEGER WORKLOADS, AND AUTOMATION SCRIPTS THAT NEED SIMPLE SYNTAX WITH PREDICTABLE PERFORMANCE. THE LISTED STANDARD LIBRARY AREAS INCLUDE FILESYSTEM ACCESS, ENCODING, HASHING, BUFFERS, BINARY OPERATIONS, MATH, AND ENVIRONMENT ACCESS. [SOURCE](https://dbytelang.site/)
 
-## [DByteOS](https://dbytelang.site/docs)
+## [DBYTEOS](https://dbytelang.site/docs)
 
-DByteOS is described as a host-runnable userland built on top of the DByte runtime. It is not presented as a standalone operating system: the docs explicitly say it is not a kernel, bootloader, hardware driver layer, or OS passthrough. Its current direction is a deterministic personal computing environment with shell, preferences, diagnostics, projects, snapshot, and manual-page style documentation. [Source](https://dbytelang.site/docs) [Source](https://dbytelang.site/about)
+DBYTEOS IS DESCRIBED AS A HOST-RUNNABLE USERLAND BUILT ON TOP OF THE DBYTE RUNTIME. IT IS NOT PRESENTED AS A STANDALONE OPERATING SYSTEM: THE DOCS EXPLICITLY SAY IT IS NOT A KERNEL, BOOTLOADER, HARDWARE DRIVER LAYER, OR OS PASSTHROUGH. ITS CURRENT DIRECTION IS A DETERMINISTIC PERSONAL COMPUTING ENVIRONMENT WITH SHELL, PREFERENCES, DIAGNOSTICS, PROJECTS, SNAPSHOT, AND MANUAL-PAGE STYLE DOCUMENTATION. [SOURCE](https://dbytelang.site/docs) [SOURCE](https://dbytelang.site/about)
 
-## Focus
+## FOCUS
 
-- binary patching
-- byte pattern search
-- tool scripts
-- REPL and shell workflow
-- small language design
-- system experiments through DByteOS userland
-- personal computing workspace concepts [Source](https://dbytelang.site/about) [Source](https://dbytelang.site/)
+- BINARY PATCHING
+- BYTE PATTERN SEARCH
+- TOOL SCRIPTS
+- REPL AND SHELL WORKFLOW
+- SMALL LANGUAGE DESIGN
+- SYSTEM EXPERIMENTS THROUGH DBYTEOS USERLAND
+- PERSONAL COMPUTING WORKSPACE CONCEPTS [SOURCE](https://dbytelang.site/about) [SOURCE](https://dbytelang.site/)
 
-## Current Public Line
+## CURRENT PUBLIC LINE
 
-The public download linked on the main site is **DByte 3.3.0** for **windows-x64**, while the docs currently describe the **DByteOS Personal Alpha v5.1.0** line. The docs explicitly note that the v5.1.0 documentation does not mean there is a public v5.1.0 zip available yet. [Source](https://dbytelang.site/) [Source](https://dbytelang.site/docs) [Source](https://dbytelang.site/about)
+THE PUBLIC DOWNLOAD LINKED ON THE MAIN SITE IS **DBYTE 3.3.0** FOR **WINDOWS-X64**, WHILE THE DOCS CURRENTLY DESCRIBE THE **DBYTEOS PERSONAL ALPHA V5.1.0** LINE. THE DOCS EXPLICITLY NOTE THAT THE V5.1.0 DOCUMENTATION DOES NOT MEAN THERE IS A PUBLIC V5.1.0 ZIP AVAILABLE YET. [SOURCE](https://dbytelang.site/) [SOURCE](https://dbytelang.site/docs) [SOURCE](https://dbytelang.site/about)
 
-## Command Surface
+## COMMAND SURFACE
 
-The public materials show DByte as a toolchain built around direct command-line usage, including running files, checking files, testing, disassembly, token and AST inspection, REPL access, and shell access. The docs also describe DByteOS-side commands for boot, status, sysinfo, profile, config, prefs, snapshot, doctor, diagnose, and project management. [Source](https://dbytelang.site/) [Source](https://dbytelang.site/docs)
+THE PUBLIC MATERIALS SHOW DBYTE AS A TOOLCHAIN BUILT AROUND DIRECT COMMAND-LINE USAGE, INCLUDING RUNNING FILES, CHECKING FILES, TESTING, DISASSEMBLY, TOKEN AND AST INSPECTION, REPL ACCESS, AND SHELL ACCESS. THE DOCS ALSO DESCRIBE DBYTEOS-SIDE COMMANDS FOR BOOT, STATUS, SYSINFO, PROFILE, CONFIG, PREFS, SNAPSHOT, DOCTOR, DIAGNOSE, AND PROJECT MANAGEMENT. [SOURCE](https://dbytelang.site/) [SOURCE](https://dbytelang.site/docs)
 
-## Example Shape
+## EXAMPLE SHAPE
 
-The official examples show typed variables, functions, byte literals, and buffer-oriented workflows. One published example creates a binary file, finds a byte pattern, replaces it, saves the patched output, and prints the result as hex. [Source](https://dbytelang.site/) [Source](https://dbytelang.site/docs)
+THE OFFICIAL EXAMPLES SHOW TYPED VARIABLES, FUNCTIONS, BYTE LITERALS, AND BUFFER-ORIENTED WORKFLOWS. ONE PUBLISHED EXAMPLE CREATES A BINARY FILE, FINDS A BYTE PATTERN, REPLACES IT, SAVES THE PATCHED OUTPUT, AND PRINTS THE RESULT AS HEX. [SOURCE](https://dbytelang.site/) [SOURCE](https://dbytelang.site/docs)
 
 ```dbyte
 import std.buffer as buf
@@ -82,20 +80,20 @@ let patched: bytes = fs.read_bytes("sample.patched.bin")
 print(enc.hex_encode(patched))
 ```
 
-## Design Notes
+## DESIGN NOTES
 
-The language and site presentation consistently push a direct style: plain HTML, plain CSS, normal links, one download button, and a stated dislike of “cloud altar” or “dashboard smell.” The same tone appears again in the about page, where the project frames itself as direct, inspectable, and deliberately non-corporate. [Source](https://dbytelang.site/) [Source](https://dbytelang.site/about)
+THE LANGUAGE AND SITE PRESENTATION CONSISTENTLY PUSH A DIRECT STYLE: PLAIN HTML, PLAIN CSS, NORMAL LINKS, ONE DOWNLOAD BUTTON, AND A STATED DISLIKE OF "CLOUD ALTAR" OR "DASHBOARD SMELL." THE SAME TONE APPEARS AGAIN IN THE ABOUT PAGE, WHERE THE PROJECT FRAMES ITSELF AS DIRECT, INSPECTABLE, AND DELIBERATELY NON-CORPORATE. [SOURCE](https://dbytelang.site/) [SOURCE](https://dbytelang.site/about)
 
-## Links
+## LINKS
 
-- Site: [dbytelang.site](https://dbytelang.site/)
-- Docs: [dbytelang.site/docs](https://dbytelang.site/docs)
-- About: [dbytelang.site/about](https://dbytelang.site/about)
-- GitHub: [Deadbytes101/DByte](https://github.com/Deadbytes101/DByte)
-- Public release: [v3.3.0](https://github.com/Deadbytes101/DByte/releases/tag/v3.3.0)
-- Discord community: [discord.gg/hWuwUbrujb](https://discord.gg/hWuwUbrujb) [Source](https://dbytelang.site/about)
+- SITE: [DBYTELANG.SITE](https://dbytelang.site/)
+- DOCS: [DBYTELANG.SITE/DOCS](https://dbytelang.site/docs)
+- ABOUT: [DBYTELANG.SITE/ABOUT](https://dbytelang.site/about)
+- GITHUB: [DEADBYTES101/DBYTE](https://github.com/Deadbytes101/DByte)
+- PUBLIC RELEASE: [V3.3.0](https://github.com/Deadbytes101/DByte/releases/tag/v3.3.0)
+- DISCORD COMMUNITY: [DISCORD.GG/HWUWUBRUJB](https://discord.gg/hWuwUbrujb) [SOURCE](https://dbytelang.site/about)
 
 ```text
-Readable code is not soft.
-Code that explains itself is a blade with a handle.
+READABLE CODE IS NOT SOFT.
+CODE THAT EXPLAINS ITSELF IS A BLADE WITH A HANDLE.
 ```
