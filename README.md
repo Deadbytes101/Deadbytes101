@@ -27,8 +27,8 @@ DByte is a statically checked, Python-like scripting language with a bytecode VM
   <img src="https://img.shields.io/badge/Linux-0d0d0d?style=for-the-badge&logo=linux&logoColor=red" />
   <img src="https://img.shields.io/badge/Shell-0d0d0d?style=for-the-badge&logo=gnu-bash&logoColor=red" />
   <img src="https://img.shields.io/badge/Kernel_Research-0d0d0d?style=for-the-badge&logo=linux&logoColor=red" />
+  <img src="https://img.shields.io/badge/Reverse_Engineering-0d0d0d?style=for-the-badge&logo=hackaday&logoColor=red" />
 </p>
-
 
 ---
 DEADBYTE is the independent builder behind DByte. The project is presented plainly: not a company, not a committee, and not a corporate landing page. The stated direction is handmade software with visible fingerprints rather than polished abstraction for its own sake. [Source](https://dbytelang.site/about)
