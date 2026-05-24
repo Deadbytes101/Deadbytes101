@@ -7,7 +7,7 @@
 |       || |_|   |  |   |    |   |  |   |___
 |______||_______|  |___|    |___|  |_______|
 
-GOD IS PERFECTLY JUST / HIGHS AND LOWS BALANCE / I WROTE A COMPILER NIGGER I AM SMARTER THAN LINUS I WROTE A KERNEL AND COMPILER
+I WROTE A COMPILER NIGGER I AM SMARTER THAN LINUS I WROTE A KERNEL AND COMPILER.
 ```
 
 <div align="center">
