@@ -1,26 +1,13 @@
 <div align="center">
 
 # DEADBYTE
-
-**BUILDER. BYTE WORKER. MACHINE WHISPERER.**
-
 [![SITE](https://img.shields.io/badge/DBYTELANG.SITE-0d0d0d?style=for-the-badge&logoColor=red)](https://dbytelang.site/)
 [![DOCS](https://img.shields.io/badge/DOCS-0d0d0d?style=for-the-badge&logoColor=red)](https://dbytelang.site/docs)
 [![DISCORD](https://img.shields.io/badge/DISCORD-0d0d0d?style=for-the-badge&logo=discord&logoColor=red)](https://discord.gg/hWuwUbrujb)
 
 </div>
 
----
 
-<div align="center">
-
-> **NOT A COMPANY. NOT A COMMITTEE. NOT A CORPORATE LANDING PAGE.**
-> HANDMADE SOFTWARE WITH VISIBLE FINGERPRINTS.
-> FEWER LAYERS BETWEEN THE USER AND THE MACHINE.
-
-</div>
-
----
 
 ## CORE STACK
 
@@ -104,13 +91,5 @@ A **HOST-RUNNABLE USERLAND** BUILT ON THE DBYTE RUNTIME.
 |  **DISCORD** | [discord.gg/hWuwUbrujb](https://discord.gg/hWuwUbrujb) |
 
 </div>
-
 ---
-
 <div align="center">
-
-```text
-READABLE CODE IS NOT SOFT.
-CODE THAT EXPLAINS ITSELF IS A BLADE WITH A HANDLE.
-```
-</div>
