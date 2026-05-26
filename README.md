@@ -1,15 +1,3 @@
-```markdown
- ______  _______  __   __  _______  _______
-|      ||  _    ||  | |  ||       ||       |
-|  _    || |_|   ||  |_|  ||_     _||    ___|
-| | |   ||       ||       |  |   |  |   |___
-| |_|   ||  _   | |_     _|  |   |  |    ___|
-|       || |_|   |  |   |    |   |  |   |___
-|______||_______|  |___|    |___|  |_______|
-
-I WROTE A COMPILER NIGGER I AM SMARTER THAN LINUS I WROTE A KERNEL AND COMPILER.
-```
-
 <div align="center">
 
 # DEADBYTE
