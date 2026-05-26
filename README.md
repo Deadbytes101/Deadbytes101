@@ -7,7 +7,6 @@
 [![SITE](https://img.shields.io/badge/DBYTELANG.SITE-0d0d0d?style=for-the-badge&logoColor=red)](https://dbytelang.site/)
 [![DOCS](https://img.shields.io/badge/DOCS-0d0d0d?style=for-the-badge&logoColor=red)](https://dbytelang.site/docs)
 [![DISCORD](https://img.shields.io/badge/DISCORD-0d0d0d?style=for-the-badge&logo=discord&logoColor=red)](https://discord.gg/hWuwUbrujb)
-[![GITHUB](https://img.shields.io/badge/DEADBYTES101-0d0d0d?style=for-the-badge&logo=github&logoColor=red)](https://github.com/Deadbytes101)
 
 </div>
 
