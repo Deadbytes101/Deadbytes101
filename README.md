@@ -21,59 +21,6 @@
   <img src="https://img.shields.io/badge/Byte-0d0d0d?style=for-the-badge&logo=dependabot&logoColor=red" />
 </p>
 
----
-
-## [DBYTE](https://dbytelang.site/)
-
-> STATICALLY CHECKED. PYTHON-LIKE. BYTECODE VM. LOW-LEVEL STDLIB.
-> BUILT FOR BYTE WORK — NOT FOR YOUR CLOUD ALTAR.
-
-```dbyte
-import std.buffer as buf
-import std.encoding as enc
-import std.fs as fs
-
-fs.write_bytes("sample.bin", b"\x00\xDE\xAD\xBE\xEF\x00")
-
-let b: buffer = buf.load("sample.bin")
-let pos: int = buf.find(b, b"\xDE\xAD\xBE\xEF")
-
-if pos >= 0:
-    buf.replace(b, pos, b"\x90\x90\x90\x90")
-    buf.save("sample.patched.bin", b)
-
-let patched: bytes = fs.read_bytes("sample.patched.bin")
-print(enc.hex_encode(patched))
-```
-
-**CURRENT PUBLIC RELEASE → [`v3.3.0` windows-x64](https://github.com/Deadbytes101/DByte/releases/tag/v3.3.0)**
-**DBYTEOS PERSONAL ALPHA → `v5.1.0` (DOCS ONLY — NO ZIP YET)**
-
----
-
-## WHAT I BUILD
-
-| DOMAIN | DETAIL |
-|---|---|
-| `BINARY PATCHING` | FIND. REPLACE. SAVE. NO WRAPPER. |
-| `BYTE PATTERN SEARCH` | RAW BUFFER WORK, TYPED INTEGERS |
-| `TOOL SCRIPTS` | DIRECT CLI. ONE JOB. DONE. |
-| `SMALL LANGUAGE DESIGN` | COMPILER + VM FROM SCRATCH |
-| `KERNEL RESEARCH` | LOW LEVEL. NO APOLOGIES. |
-| `REVERSE ENGINEERING` | DISASSEMBLE. INSPECT. UNDERSTAND. |
-| `REPL / SHELL WORKFLOW` | DBYTEOS USERLAND EXPERIMENTS |
-
----
-
-## [DBYTEOS](https://dbytelang.site/docs)
-
-A **HOST-RUNNABLE USERLAND** BUILT ON THE DBYTE RUNTIME.
-
-- NOT A KERNEL. NOT A BOOTLOADER. NOT AN OS PASSTHROUGH.
-- A **DETERMINISTIC PERSONAL COMPUTING ENVIRONMENT**
-- SHELL · PREFERENCES · DIAGNOSTICS · PROJECTS · SNAPSHOT · MANUAL PAGES
-
----
 
 ## LINKS
 
