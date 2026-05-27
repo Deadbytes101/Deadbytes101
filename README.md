@@ -31,7 +31,6 @@
 |  **SITE** | [dbytelang.site](https://dbytelang.site/) |
 |  **DOCS** | [dbytelang.site/docs](https://dbytelang.site/docs) |
 |  **ABOUT** | [dbytelang.site/about](https://dbytelang.site/about) |
-|  **GITHUB** | [Deadbytes101/DByte](https://github.com/Deadbytes101/DByte) |
 |  **RELEASE** | [v3.3.0](https://github.com/Deadbytes101/DByte/releases/tag/v3.3.0) |
 |  **DISCORD** | [discord.gg/hWuwUbrujb](https://discord.gg/hWuwUbrujb) |
 
