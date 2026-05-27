@@ -16,9 +16,7 @@
   <img src="https://img.shields.io/badge/Python-0d0d0d?style=for-the-badge&logo=python&logoColor=red" />
   <img src="https://img.shields.io/badge/Linux-0d0d0d?style=for-the-badge&logo=linux&logoColor=red" />
   <img src="https://img.shields.io/badge/Shell-0d0d0d?style=for-the-badge&logo=gnu-bash&logoColor=red" />
-  <img src="https://img.shields.io/badge/Kernel_Research-0d0d0d?style=for-the-badge&logo=linux&logoColor=red" />
   <img src="https://img.shields.io/badge/Reverse_Engineering-0d0d0d?style=for-the-badge&logo=hackaday&logoColor=red" />
-  <img src="https://img.shields.io/badge/Byte-0d0d0d?style=for-the-badge&logo=dependabot&logoColor=red" />
 </p>
 
 
