@@ -1,9 +1,24 @@
 <div align="center">
 
 # DEADBYTE
+
 [![SITE](https://img.shields.io/badge/DBYTELANG.SITE-0d0d0d?style=for-the-badge&logoColor=red)](https://dbytelang.site/)
+[![DOCS](https://img.shields.io/badge/DOCS-0d0d0d?style=for-the-badge&logo=readthedocs&logoColor=red)](https://dbytelang.site/docs)
+[![DISCORD](https://img.shields.io/badge/DISCORD-0d0d0d?style=for-the-badge&logo=discord&logoColor=red)](https://discord.gg/hWuwUbrujb)
 
 </div>
+
+## BUILDING
+
+I build low-level software with a bias toward direct control, small tools, and reproducible proof.
+
+Main work:
+
+- **DBYTE** — a low-level scripting language for binary parsing, buffer patching, byte search, typed integer work, and automation.
+- **DBYTEPAD** — editor/tooling experiments around the DBYTE ecosystem.
+- **DEADGL** — graphics / rendering experiments.
+- **DBYTE hardware work** — board bring-up, PCB experiments, firmware probes, and BIOS research.
+- **HOLYC-style tools** — small native utilities with minimal abstraction and no framework circus.
 
 ## CORE STACK
 
@@ -17,17 +32,12 @@
   <img src="https://img.shields.io/badge/Reverse_Engineering-0d0d0d?style=for-the-badge&logo=hackaday&logoColor=red" />
 </p>
 
-
 ## LINKS
-
-<div align="left">
 
 | | |
 |---|---|
-|  **SITE** | [dbytelang.site](https://dbytelang.site/) |
-|  **DOCS** | [dbytelang.site/docs](https://dbytelang.site/docs) |
-|  **ABOUT** | [dbytelang.site/about](https://dbytelang.site/about) |
-|  **DISCORD** | [discord.gg/hWuwUbrujb](https://discord.gg/hWuwUbrujb) |
-
-</div>
-<div align="center">
+| **SITE** | [dbytelang.site](https://dbytelang.site/) |
+| **DOCS** | [dbytelang.site/docs](https://dbytelang.site/docs) |
+| **ABOUT** | [dbytelang.site/about](https://dbytelang.site/about) |
+| **SOURCE** | [github.com/Deadbytes101/DBYTE](https://github.com/Deadbytes101/DBYTE) |
+| **DISCORD** | [discord.gg/hWuwUbrujb](https://discord.gg/hWuwUbrujb) |
