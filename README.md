@@ -56,17 +56,6 @@ I do not sell private builds through random accounts; anyone claiming that is no
   <img src="https://img.shields.io/badge/Reverse_Engineering-0d1117?style=for-the-badge&logo=hackaday&logoColor=58a6ff&labelColor=0d1117" alt="Reverse Engineering" />
 </p>
 
-<br>
-
-<b>Links</b><br>
-<a href="https://dbytelang.site/">dbytelang.site</a> ·
-<a href="https://dbytelang.site/docs">docs</a> ·
-<a href="https://dbytelang.site/about">about</a> ·
-<a href="https://github.com/Deadbytes101/DBYTE">source</a> ·
-<a href="https://discord.gg/hWuwUbrujb">discord</a>
-
-<br><br>
-
 <img src="https://komarev.com/ghpvc/?username=Deadbytes101&style=for-the-badge&color=000008" alt="profile views" />
 
 <br><br>
