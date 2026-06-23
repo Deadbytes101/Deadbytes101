@@ -58,8 +58,6 @@ I do not sell private builds through random accounts; anyone claiming that is no
 
 <img src="https://komarev.com/ghpvc/?username=Deadbytes101&style=for-the-badge&color=000008" alt="profile views" />
 
-<br><br>
-
 <sub>Small tools. Clear proof. No fake polish.</sub>
 
 </div>
