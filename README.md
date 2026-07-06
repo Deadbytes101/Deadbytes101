@@ -34,6 +34,4 @@ LICENSE LIVES INSIDE EACH REPO&nbsp;&nbsp;NO LICENSE MEANS ASK FIRST&nbsp;&nbsp;
 
 <img src="https://komarev.com/ghpvc/?username=Deadbytes101&style=for-the-badge&color=000008" alt="profile views" />
 
-<sub>SMALL TOOLS&nbsp;&nbsp;CLEAR PROOF&nbsp;&nbsp;BYTES FIRST</sub>
-
 </div>
