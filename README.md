@@ -34,4 +34,7 @@ LICENSE LIVES INSIDE EACH REPO&nbsp;&nbsp;NO LICENSE MEANS ASK FIRST&nbsp;&nbsp;
 
 <img src="https://komarev.com/ghpvc/?username=Deadbytes101&style=for-the-badge&color=000008" alt="profile views" />
 
+<a href="https://github.com/stars/Deadbytes101/lists/core-stack">
+  <img src="https://img.shields.io/badge/core--stack-000008?style=for-the-badge&logo=github&logoColor=white" alt="core stack badge" />
+</a>
 </div>
