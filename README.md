@@ -11,16 +11,14 @@
 
 <b>LOW LEVEL SOFTWARE</b><br>
 DIRECT CONTROL&nbsp;&nbsp;SMALL TOOLS&nbsp;&nbsp;CLEAR PROOF&nbsp;&nbsp;NO FAKE POLISH<br>
-I BUILD SYSTEMS WORK CLOSE TO THE MACHINE<br>
+I BUILD SYSTEMS CLOSE TO THE MACHINE<br>
 FILES&nbsp;&nbsp;BYTES&nbsp;&nbsp;WINDOWS&nbsp;&nbsp;GRAPHICS&nbsp;&nbsp;FIRMWARE&nbsp;&nbsp;BOARDS&nbsp;&nbsp;TESTS<br>
 
 <br>
 
-I BUILD <b>DBYTE</b> <b>DBYTEPAD</b> <b>DEADGL</b><br>
-DBYTE IS MY LANGUAGE TOOLCHAIN&nbsp;&nbsp;VM MODULES TEST RUNNER FILE WORK<br>
-DBYTEPAD IS MY NATIVE EDITOR&nbsp;&nbsp;GPU TEXT CANVAS FILE NOTES<br>
-DEADGL IS GRAPHICS WORK&nbsp;&nbsp;RENDERING NOTES WINDOW CODE<br>
-I ALSO WORK ON FIRMWARE PROBES&nbsp;&nbsp;BOARD BRING UP&nbsp;&nbsp;SMALL COMMAND TOOLS<br>
+<b>CURRENT WORK</b><br>
+<a href="https://github.com/Deadbytes101/CINDER-16"><b>CINDER-16</b></a>&nbsp;&nbsp;REVERSIBLE 16-BIT VM&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://github.com/Deadbytes101/BONEBOX-01"><b>BONEBOX-01</b></a>&nbsp;&nbsp;NATIVE X86 OS<br>
+<a href="https://github.com/Deadbytes101/DEADFLASH"><b>DEADFLASH</b></a>&nbsp;&nbsp;WIN32 IMAGE WRITER + VERIFIER&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://github.com/Deadbytes101/RIGOS"><b>RIGOS</b></a>&nbsp;&nbsp;LOCAL-FIRST CPU APPLIANCE<br>
 
 <br>
 
@@ -29,26 +27,16 @@ I ALSO WORK ON FIRMWARE PROBES&nbsp;&nbsp;BOARD BRING UP&nbsp;&nbsp;SMALL COMMAN
 <br>
 
 <b>VERIFIED COURSEWORK</b><br>
-MIPS COMPUTER ARCHITECTURE AND PERFORMANCE OPTIMIZATION<br>
-GOOGLE IT SUPPORT PROFESSIONAL CERTIFICATE<br>
-COMPTIA A+ CORE 1 SPECIALIZATION&nbsp;&nbsp;EXAM PREPARATION&nbsp;&nbsp;NOT THE COMPTIA A+ CERTIFICATION<br>
-
-<br>
-
 [![MIPS ARCHITECTURE](https://img.shields.io/badge/MIPS_ARCHITECTURE-0d1117?style=for-the-badge&logo=coursera&logoColor=58a6ff&labelColor=0d1117)](https://www.coursera.org/verify/2DSRTVQR57DL)
 [![GOOGLE IT SUPPORT](https://img.shields.io/badge/GOOGLE_IT_SUPPORT-0d1117?style=for-the-badge&logo=google&logoColor=58a6ff&labelColor=0d1117)](https://www.coursera.org/verify/professional-cert/KVMFVDKBTTDL)
-[![A+ CORE 1 COURSEWORK](https://img.shields.io/badge/A%2B_CORE_1_COURSEWORK-0d1117?style=for-the-badge&logo=coursera&logoColor=58a6ff&labelColor=0d1117)](https://www.coursera.org/verify/specialization/MKCQF06B5GH6)
-
-<br>
-
-ARCHITECTURE&nbsp;&nbsp;HARDWARE&nbsp;&nbsp;OPERATING SYSTEMS&nbsp;&nbsp;NETWORKING&nbsp;&nbsp;SECURITY&nbsp;&nbsp;PERFORMANCE<br>
-COURSEWORK LINKS POINT TO PRIMARY VERIFICATION&nbsp;&nbsp;CLAIMS STAY INSIDE THE EVIDENCE<br>
+[![A+ CORE 1 COURSEWORK](https://img.shields.io/badge/A%2B_CORE_1_COURSEWORK-0d1117?style=for-the-badge&logo=coursera&logoColor=58a6ff&labelColor=0d1117)](https://www.coursera.org/verify/specialization/MKCQF06B5GH6)<br>
+PRIMARY VERIFICATION LINKS&nbsp;&nbsp;A+ ITEM IS COURSEWORK, NOT COMPTIA CERTIFICATION<br>
 
 <br>
 
 <b>NATIVE FIRST</b>&nbsp;&nbsp;<b>DETERMINISTIC</b>&nbsp;&nbsp;<b>NO HIDDEN MAGIC</b>&nbsp;&nbsp;<b>FAIL LOUD</b><br>
 BUILD SMALL&nbsp;&nbsp;VERIFY OFTEN&nbsp;&nbsp;KEEP THE MACHINE VISIBLE&nbsp;&nbsp;SOURCE BEFORE IMAGE<br>
-LICENSE LIVES INSIDE EACH REPO&nbsp;&nbsp;NO LICENSE MEANS ASK FIRST&nbsp;&nbsp;NO RANDOM PRIVATE BUILDS<br>
+LICENSE LIVES INSIDE EACH REPO&nbsp;&nbsp;NO LICENSE MEANS ASK FIRST<br>
 
 <br>
 
