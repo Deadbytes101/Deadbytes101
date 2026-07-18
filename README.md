@@ -16,12 +16,6 @@ FILES&nbsp;&nbsp;BYTES&nbsp;&nbsp;WINDOWS&nbsp;&nbsp;GRAPHICS&nbsp;&nbsp;FIRMWAR
 
 <br>
 
-<b>CURRENT WORK</b><br>
-<a href="https://github.com/Deadbytes101/CINDER-16"><b>CINDER-16</b></a>&nbsp;&nbsp;REVERSIBLE 16-BIT VM&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://github.com/Deadbytes101/BONEBOX-01"><b>BONEBOX-01</b></a>&nbsp;&nbsp;NATIVE X86 OS<br>
-<a href="https://github.com/Deadbytes101/DEADFLASH"><b>DEADFLASH</b></a>&nbsp;&nbsp;WIN32 IMAGE WRITER + VERIFIER&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://github.com/Deadbytes101/RIGOS"><b>RIGOS</b></a>&nbsp;&nbsp;LOCAL-FIRST CPU APPLIANCE<br>
-
-<br>
-
 <p align="center"> <img src="https://img.shields.io/badge/C-0d1117?style=for-the-badge&logo=c&logoColor=58a6ff&labelColor=0d1117" alt="C" /> <img src="https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=58a6ff&labelColor=0d1117" alt="Rust" /> <img src="https://img.shields.io/badge/x86__64_ASM-0d1117?style=for-the-badge&logo=gnubash&logoColor=58a6ff&labelColor=0d1117" alt="x86_64 ASM" /> <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=58a6ff&labelColor=0d1117" alt="Python" /> <img src="https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=58a6ff&labelColor=0d1117" alt="Linux" /> <img src="https://img.shields.io/badge/Shell-0d1117?style=for-the-badge&logo=gnu-bash&logoColor=58a6ff&labelColor=0d1117" alt="Shell" /> <img src="https://img.shields.io/badge/Reverse_Engineering-0d1117?style=for-the-badge&logo=hackaday&logoColor=58a6ff&labelColor=0d1117" alt="Reverse Engineering" /> </p>
 
 <br>
