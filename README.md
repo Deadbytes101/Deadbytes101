@@ -23,7 +23,7 @@ FILES&nbsp;&nbsp;BYTES&nbsp;&nbsp;WINDOWS&nbsp;&nbsp;GRAPHICS&nbsp;&nbsp;FIRMWAR
 <b>VERIFIED CREDENTIALS</b><br>
 [![MIPS ARCHITECTURE](https://img.shields.io/badge/MIPS_ARCHITECTURE-0d1117?style=for-the-badge&logo=coursera&logoColor=58a6ff&labelColor=0d1117)](https://www.coursera.org/verify/2DSRTVQR57DL)
 [![GOOGLE IT SUPPORT](https://img.shields.io/badge/GOOGLE_IT_SUPPORT-0d1117?style=for-the-badge&logo=google&logoColor=58a6ff&labelColor=0d1117)](https://www.coursera.org/verify/professional-cert/KVMFVDKBTTDL)
-[![IBM IT SUPPORT](https://img.shields.io/badge/IBM_IT_SUPPORT-0d1117?style=for-the-badge&logo=ibm&logoColor=58a6ff&labelColor=0d1117)](https://www.coursera.org/verify/professional-cert/GNPDQ9N8IBFD)
+[![IBM IT SUPPORT](assets/ibm-it-support-badge.svg)](https://www.coursera.org/verify/professional-cert/GNPDQ9N8IBFD)
 [![A+ CORE 1 COURSEWORK](https://img.shields.io/badge/A%2B_CORE_1_COURSEWORK-0d1117?style=for-the-badge&logo=coursera&logoColor=58a6ff&labelColor=0d1117)](https://www.coursera.org/verify/specialization/MKCQF06B5GH6)<br>
 PRIMARY VERIFICATION LINKS&nbsp;&nbsp;A+ ITEM IS COURSEWORK, NOT COMPTIA CERTIFICATION<br>
 
