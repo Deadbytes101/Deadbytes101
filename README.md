@@ -1,17 +1,9 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/C-111111?style=flat-square&logo=c&logoColor=58a6ff" alt="C" />
-<img src="https://img.shields.io/badge/RUST-111111?style=flat-square&logo=rust&logoColor=58a6ff" alt="Rust" />
-<img src="https://img.shields.io/badge/PYTHON-111111?style=flat-square&logo=python&logoColor=58a6ff" alt="Python" />
-<img src="https://img.shields.io/badge/AMD64-111111?style=flat-square&logo=amd&logoColor=58a6ff&logoSize=auto" alt="AMD64" />
-
-<br>
-
-<img src="https://img.shields.io/badge/LINUX-111111?style=flat-square&logo=linux&logoColor=58a6ff" alt="Linux" />
-<img src="https://img.shields.io/badge/GNU_BASH-111111?style=flat-square&logo=gnubash&logoColor=58a6ff" alt="GNU Bash" />
-<img src="https://img.shields.io/badge/GIT-111111?style=flat-square&logo=git&logoColor=58a6ff" alt="Git" />
-<img src="https://img.shields.io/badge/QEMU-111111?style=flat-square&logo=qemu&logoColor=58a6ff" alt="QEMU" />
-<img src="https://img.shields.io/badge/GITHUB_ACTIONS-111111?style=flat-square&logo=githubactions&logoColor=58a6ff" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/BYTE-0d1117?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0iIzU4YTZmZiI%2BPHJlY3QgeD0iMiIgeT0iNCIgd2lkdGg9IjQiIGhlaWdodD0iNCIvPjxyZWN0IHg9IjgiIHk9IjQiIHdpZHRoPSI0IiBoZWlnaHQ9IjQiLz48cmVjdCB4PSIxNCIgeT0iNCIgd2lkdGg9IjQiIGhlaWdodD0iNCIvPjxyZWN0IHg9IjIiIHk9IjEwIiB3aWR0aD0iNCIgaGVpZ2h0PSI0Ii8%2BPHJlY3QgeD0iOCIgeT0iMTAiIHdpZHRoPSI0IiBoZWlnaHQ9IjQiLz48cmVjdCB4PSIxNCIgeT0iMTAiIHdpZHRoPSI0IiBoZWlnaHQ9IjQiLz48cmVjdCB4PSIyIiB5PSIxNiIgd2lkdGg9IjQiIGhlaWdodD0iNCIvPjxyZWN0IHg9IjgiIHk9IjE2IiB3aWR0aD0iNCIgaGVpZ2h0PSI0Ii8%2BPC9nPjwvc3ZnPg%3D%3D&labelColor=0d1117" alt="BYTE" />
+<img src="https://img.shields.io/badge/ASM-0d1117?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iIzU4YTZmZiIgZD0iTTMgNWgxMHYzSDN6bTAgNmgxNHYzSDN6bTAgNmg4djNIM3ptMTUtMSA0IDMtNCAzdi0yaC00di0yaDR6Ii8%2BPC9zdmc%2B&labelColor=0d1117" alt="ASM" />
+<img src="https://img.shields.io/badge/X86-0d1117?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iIzU4YTZmZiIgZD0iTTcgMmgxMHYyaDN2M2gydjEwaC0ydjNoLTN2Mkg3di0ySDR2LTNIMlY3aDJWNGgzeiIvPjx0ZXh0IHg9IjEyIiB5PSIxNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjgiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwZDExMTciPjg2PC90ZXh0Pjwvc3ZnPg%3D%3D&labelColor=0d1117" alt="X86" />
+<img src="https://img.shields.io/badge/AMD64-0d1117?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iIzU4YTZmZiIgZD0iTTEyIDEgMjIgNnYxMmwtMTAgNUwyIDE4VjZ6Ii8%2BPHRleHQgeD0iMTIiIHk9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iOCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzBkMTExNyI%2BNjQ8L3RleHQ%2BPC9zdmc%2B&labelColor=0d1117" alt="AMD64" />
 
 </div>
 
