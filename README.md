@@ -1,13 +1,36 @@
-# DEADBYTE
+<div align="center">
 
-Solo systems engineer working on low-level software.
+<pre>
+DEADBYTE
 
-Current focus:
+C / RUST / X86-64 ASM
+LANGUAGES / KERNELS / FIRMWARE / TOOLS
+</pre>
 
-- [DBYTE](https://github.com/Deadbytes101/DBYTE) — a byte-oriented language, userland, and x86 kernel laboratory.
-- Native utilities and tooling in C, Rust, and assembly.
-- Firmware and hardware experiments.
+<p>
+  <a href="https://github.com/Deadbytes101/DBYTE">DBYTE</a>
+  ·
+  <a href="https://github.com/Deadbytes101/RIGOS">RIGOS</a>
+  ·
+  <a href="https://github.com/Deadbytes101/BONEBOX-01">BONEBOX-01</a>
+  ·
+  <a href="https://github.com/Deadbytes101/DEADWIRE-HTTPD">DEADWIRE-HTTPD</a>
+</p>
 
-Projects are published with their current status, limitations, and verification steps.
+<p>
+  <a href="https://dbytelang.site/">SITE</a>
+  ·
+  <a href="https://dbytelang.site/docs">DOCS</a>
+</p>
 
-[Website](https://dbytelang.site/) · [Documentation](https://dbytelang.site/docs)
+</div>
+
+<details>
+<summary>CERTIFICATES</summary>
+
+- [MIPS Architecture](https://www.coursera.org/verify/2DSRTVQR57DL)
+- [Google IT Support](https://www.coursera.org/verify/professional-cert/KVMFVDKBTTDL)
+- [IBM IT Support](https://www.coursera.org/verify/professional-cert/GNPDQ9N8IBFD)
+- [A+ Core 1 coursework](https://www.coursera.org/verify/specialization/MKCQF06B5GH6) — coursework, not CompTIA certification
+
+</details>
