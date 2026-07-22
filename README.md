@@ -1,11 +1,11 @@
 <div align="center">
 
-<pre>
-DEADBYTE
+<h2>DEADBYTE</h2>
 
-C / RUST / X86-64 ASM
+<p><samp>
+C / RUST / X86-64 ASM<br>
 LANGUAGES / KERNELS / FIRMWARE / TOOLS
-</pre>
+</samp></p>
 
 <p>
   <a href="https://github.com/Deadbytes101/DBYTE">DBYTE</a>
