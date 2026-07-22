@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/Deadbytes101/DBYTE"><img src="https://img.shields.io/badge/DBYTE-111111?style=flat-square&logo=github&logoColor=58a6ff" alt="DBYTE" /></a>
+<a href="https://github.com/Deadbytes101/DBYTE"><img src="https://img.shields.io/badge/DBYTE-111111?style=flat-square&logo=github&logoColor=58a6ff" alt="DBYTELANGUAGE" /></a>
 <a href="https://github.com/Deadbytes101/RIGOS"><img src="https://img.shields.io/badge/RIGOS-111111?style=flat-square&logo=linux&logoColor=58a6ff" alt="RIGOS" /></a>
 <a href="https://github.com/Deadbytes101/BONEBOX-01"><img src="https://img.shields.io/badge/BONEBOX--01-111111?style=flat-square&logo=gnubash&logoColor=58a6ff" alt="BONEBOX-01" /></a>
 <a href="https://github.com/Deadbytes101/DEADWIRE-HTTPD"><img src="https://img.shields.io/badge/DEADWIRE--HTTPD-111111?style=flat-square&logo=gnubash&logoColor=58a6ff" alt="DEADWIRE-HTTPD" /></a>
