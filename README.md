@@ -4,8 +4,6 @@ I like computers I can take apart. Old PCs, boot sectors, ROM dumps, weird bugs.
 
 C, Rust and assembly are what I reach for most. I've written compilers, tiny operating systems and Windows tools. I've also drawn boards that still need their first power-on. Sometimes I build something to learn how it works. Sometimes the existing tool just gets on my nerves.
 
-Terry A. Davis is my idol. I like that he built his own tools and knew what was going on under the hood. I'm not trying to make another TempleOS. I just want to understand more of the machine myself.
-
 **If I can't figure out what a program is doing, I'll probably write a smaller one.**
 
 ![C17](https://img.shields.io/badge/C17-24292F?style=flat-square&logo=c&logoColor=white)
