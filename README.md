@@ -1,65 +1,65 @@
 # DEADBYTE
 
-Systems programming. Reverse engineering. Old PCs. Bare metal.
+I like old computers and low-level code.
 
-I like software I can read from top to bottom, hardware I can probe, and results I can reproduce. C, Rust, assembly, and whatever gets close enough to the machine. Terry A. Davis is an influence; the goal is to understand the whole thing, not to pile abstractions on top of it.
+Mostly C, Rust and x86 assembly. I mess with compilers, boot sectors, ROMs, filesystems, circuit boards, and sometimes games. I'd rather read a datasheet or open a debugger than guess.
+
+Terry A. Davis is my idol. I like the idea of a computer one person can actually understand.
 
 **MOST PEOPLE WRITE CODE TO SOLVE PROBLEMS.**  
 **I WRITE CODE BECAUSE I DO NOT WANT TO DEPEND ON ANYONE ELSE'S SOFTWARE.**
 
-No framework where a function will do. No speed claim without a measurement.
+## Languages, CPUs, operating systems
 
-## Software and machines
+- [DBYTE](https://github.com/Deadbytes101/DBYTE) — My programming language. Compiler, VM, native code, and OS experiments.
+- [BONEBOX-01](https://github.com/Deadbytes101/BONEBOX-01) — x86 real mode, starting at the boot sector. Kernel, filesystem, shell.
+- [LOOM](https://github.com/Deadbytes101/LOOM) — Trying an x86-64 system made of replaceable cells instead of a permanent kernel.
+- [SHINESEA](https://github.com/Deadbytes101/SHINESEA) — A filesystem image format. Extents, mirrored metadata, recovery tests.
+- [CINDER-16](https://github.com/Deadbytes101/CINDER-16) — A small 16-bit virtual machine in Io. It can step backwards.
+- [DBLYATEM](https://github.com/Deadbytes101/DBLYATEM) — PE/AMD64 parsing and verification in C.
+- [DBYTE-HOLYC-OPT](https://github.com/Deadbytes101/DBYTE-HOLYC-OPT) — Experiments with Terry's HolyC optimizer. Still HolyC, not LLVM.
 
-- **[DBYTE](https://github.com/Deadbytes101/DBYTE)** — A byte-oriented programming language, compiler, VM, native runtime, and OS experiments.
-- **[BONEBOX-01](https://github.com/Deadbytes101/BONEBOX-01)** — A real-mode x86 system with its own boot sector, resident nucleus, filesystem, and shell.
-- **[LOOM](https://github.com/Deadbytes101/LOOM)** — An experimental x86-64 operating engine made of replaceable cells, without a resident kernel.
-- **[SHINESEA](https://github.com/Deadbytes101/SHINESEA)** — A Rust filesystem-image core using contiguous extents, integrity checks, and explicit recovery rules.
-- **[CINDER-16](https://github.com/Deadbytes101/CINDER-16)** — A 16-bit virtual machine written in Io, with a reversible debugger.
-- **[DBLYATEM](https://github.com/Deadbytes101/DBLYATEM)** — C experiments in PE/AMD64 image parsing and strict binary verification.
-- **[DBYTE-HOLYC-OPT](https://github.com/Deadbytes101/DBYTE-HOLYC-OPT)** — Experimental optimization work on the original HolyC intermediate-code pipeline.
+## Programs
 
-## Graphics and file formats
+- [DBYTEPAD](https://github.com/Deadbytes101/DBYTEPAD) — A Win32 text editor written in C. Also a bunch of tiny executable experiments.
+- [DEADFLASH](https://github.com/Deadbytes101/DEADFLASH) — Write disk images, read them back, check the bytes.
+- [DEADBYTE-RECLAIM](https://github.com/Deadbytes101/DEADBYTE-RECLAIM) — Windows software inventory, uninstall and rollback.
+- [DBNET](https://github.com/Deadbytes101/DBNET) — Network tests and Windows networking tools.
+- [DEADWIRE-HTTPD](https://github.com/Deadbytes101/DEADWIRE-HTTPD) — Small HTTP/1.0 server with assembly backends.
+- [BYTE-KEEPER](https://github.com/Deadbytes101/BYTE-KEEPER) — M0TE, a little byte-life thing living in a native Rust program.
 
-- **[DEADGL](https://github.com/Deadbytes101/DEADGL)** — A C99 software renderer: command stream in, pixels and deterministic hashes out.
-- **[DGP-1](https://github.com/Deadbytes101/DGP-1)** — Fixed-function GPU research: RTL, rasterization, texture units, scanout, and verification.
-- **[dbyte-dbpx](https://github.com/Deadbytes101/dbyte-dbpx)** — A small lossless raster-image format with a strict decoder and test corpus.
+## Pixels
 
-## Native tools
+- [DEADGL](https://github.com/Deadbytes101/DEADGL) — Software renderer in C99. No GPU required.
+- [DGP-1](https://github.com/Deadbytes101/DGP-1) — Fixed-function GPU design. RTL, memory paths, textures and scanout. Still a hardware project.
+- [dbyte-dbpx](https://github.com/Deadbytes101/dbyte-dbpx) — My own small lossless pixel format.
 
-- **[DBYTEPAD](https://github.com/Deadbytes101/DBYTEPAD)** — A Win32 text editor written in C. No webview, no Electron.
-- **[DEADBYTE-RECLAIM](https://github.com/Deadbytes101/DEADBYTE-RECLAIM)** — Native Windows software inventory, uninstall, quarantine, and rollback.
-- **[DEADFLASH](https://github.com/Deadbytes101/DEADFLASH)** — A native disk-image writer with target checks and readback verification.
-- **[DBNET](https://github.com/Deadbytes101/DBNET)** — Windows network diagnostics, bottleneck testing, and auditable configuration changes.
-- **[DEADWIRE-HTTPD](https://github.com/Deadbytes101/DEADWIRE-HTTPD)** — A small HTTP/1.0 static server with assembly backends.
-- **[BYTE-KEEPER](https://github.com/Deadbytes101/BYTE-KEEPER)** — A native Rust habitat for M0TE, a little digital organism made of bytes.
+## Boards and firmware
 
-## Hardware and firmware
+- [DBYTE-370](https://github.com/Deadbytes101/DBYTE-370) — Designing a Socket 370 ATX board around the Pentium III and VIA chipsets.
+- [S3CORE01](https://github.com/Deadbytes101/S3CORE01) — SG2002 RV64 computer board. PCB work; physical bring-up is a separate job.
+- [USBDEADFLASH](https://github.com/Deadbytes101/USBDEADFLASH) — DIY USB 3.0 flash drive. Schematic and PCB, not a finished stick.
+- [dbyte-a780l3b-bios-research](https://github.com/Deadbytes101/dbyte-a780l3b-bios-research) — Taking apart a BIOSTAR BIOS, patching ROMs, checking chip reads.
 
-- **[DBYTE-370](https://github.com/Deadbytes101/DBYTE-370)** — A Socket 370 Pentium III ATX motherboard design built around VIA chipsets.
-- **[S3CORE01](https://github.com/Deadbytes101/S3CORE01)** — A compact SG2002-based RV64 computer and PCB bring-up project. Hardware not yet proven.
-- **[USBDEADFLASH](https://github.com/Deadbytes101/USBDEADFLASH)** — A USB 3.0 flash-drive schematic and PCB project. Not a manufactured product.
-- **[A780L3B BIOS research](https://github.com/Deadbytes101/dbyte-a780l3b-bios-research)** — BIOSTAR firmware disassembly, ROM patching, and chip-read verification.
+## Other stuff
 
-## Other experiments
+- [RIGOS](https://github.com/Deadbytes101/RIGOS) — USB-bootable, local-first CPU mining machine.
+- [JOBSIM-DESKTOP](https://github.com/Deadbytes101/JOBSIM-DESKTOP) — Job Simulator with mouse and keyboard. Old experiment; archived.
+- [shower-game-remastered-2015](https://github.com/Deadbytes101/shower-game-remastered-2015) — Research and planning for a clean-room remake of Shower Game (2015).
 
-- **[RIGOS](https://github.com/Deadbytes101/RIGOS)** — A local-first, USB-bootable CPU mining appliance project.
-- **[JOBSIM-DESKTOP](https://github.com/Deadbytes101/JOBSIM-DESKTOP)** — An archived native keyboard/mouse compatibility experiment for Job Simulator.
-- **[Shower Game remaster study](https://github.com/Deadbytes101/shower-game-remastered-2015)** — Clean-room planning and source-provenance research for a 2015 game.
+Some of these are finished enough to use. Some boot in QEMU. Some aren't built yet. Look at each repository for the actual state.
 
-These repositories contain a mixture of releases, research, works in progress, and archived experiments. Read each project's own README for its actual state.
-
-[All public repositories](https://github.com/Deadbytes101?tab=repositories) · [DBYTE website](https://dbytelang.site)
+[All repositories](https://github.com/Deadbytes101?tab=repositories) / [DByte website](https://dbytelang.site)
 
 <details>
-<summary>Credential truth table</summary>
+<summary>Certificates / coursework</summary>
 
-| Credential | Issuer | What it is |
+| Course | Issuer | Record |
 | --- | --- | --- |
 | [MIPS Computer Architecture and Performance Optimization](https://www.coursera.org/verify/2DSRTVQR57DL) | BITS Pilani / Coursera | Course certificate |
 | [Google IT Support](https://www.coursera.org/verify/professional-cert/KVMFVDKBTTDL) | Google / Coursera | Professional certificate |
 | [IBM IT Support](https://www.coursera.org/verify/professional-cert/GNPDQ9N8IBFD) | IBM / Coursera | Professional certificate |
-| [CompTIA A+ Core 1 coursework](https://www.coursera.org/verify/specialization/MKCQF06B5GH6) | Total Seminars / Coursera | Coursework specialization; **not** CompTIA certification |
+| [CompTIA A+ Core 1 coursework](https://www.coursera.org/verify/specialization/MKCQF06B5GH6) | Total Seminars / Coursera | Coursework specialization, not CompTIA certification |
 | [Computer and ICT Literacy Skills (45 hours)](https://learner.thaimooc.ac.th/credential-wallet/a98d5c90-68cb-47b2-897e-0ce9aa35da1a/poongsak.phu/public) | Khon Kaen University / Thai MOOC | Certificate of completion |
 
 </details>
