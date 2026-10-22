@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="101" height="20" viewBox="0 0 101 20" role="img" aria-label="x86 Assembly">
-<title>x86 Assembly</title><rect width="101" height="20" fill="#24303C"/>
+<title>x86 Assembly</title><rect width="101" height="20" fill="#20252B"/>
 <g transform="translate(3,3) scale(.58333)" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3" width="17" height="18" rx="1.5"/><path d="M7 8l3.5 3.5L7 15M13 15h4M7 6h10"/></g>
 <text x="24" y="14" fill="#fff" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="10">x86 Assembly</text>
 </svg>

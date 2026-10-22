@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="72" height="20" viewBox="0 0 72 20" role="img" aria-label="CH341A">
-<title>CH341A</title><rect width="72" height="20" fill="#41322E"/>
+<title>CH341A</title><rect width="72" height="20" fill="#20252B"/>
 <g transform="translate(3,3) scale(.58333)" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx=".8"/><path d="M3 7h2m-2 5h2m-2 5h2m14-10h2m-2 5h2m-2 5h2M10 10h5m-5 4h5"/><circle cx="7.5" cy="7.6" r=".65" fill="#fff" stroke="none"/></g>
 <text x="24" y="14" fill="#fff" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="10">CH341A</text>
 </svg>
