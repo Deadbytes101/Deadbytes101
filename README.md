@@ -6,37 +6,24 @@ C, Rust and assembly are what I reach for most. I've written compilers, tiny ope
 
 **If I can't figure out what a program is doing, I'll probably write a smaller one.**
 
-## Core stack
-
-I don't use all of this every day. These are the things I've actually worked with.
-
-**Languages**
-
-![C17](https://img.shields.io/badge/C17-20252B?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-20252B?style=flat-square&logo=cplusplus&logoColor=white) ![C#](https://img.shields.io/badge/C%23-20252B?style=flat-square&logo=csharp&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-20252B?style=flat-square&logo=rust&logoColor=white) ![x86 Assembly](assets/core-badges/x86-assembly.svg) ![DByte](assets/core-badges/dbyte.svg) ![HolyC](assets/core-badges/holyc.svg) ![Io](assets/core-badges/io.svg) ![Verilog](assets/core-badges/verilog.svg) ![Python](https://img.shields.io/badge/Python-20252B?style=flat-square&logo=python&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-20252B?style=flat-square&logo=powershell&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-20252B?style=flat-square&logo=gnubash&logoColor=white)
-
-**Systems**
-
-![Win32](assets/core-badges/win32.svg) ![Linux](https://img.shields.io/badge/Linux-20252B?style=flat-square&logo=linux&logoColor=white) ![WSL](assets/core-badges/wsl.svg) ![x86](assets/core-badges/x86.svg) ![x86-64](assets/core-badges/x86-64.svg) ![BIOS](assets/core-badges/bios.svg) ![Legacy BIOS](assets/core-badges/legacy-bios.svg) ![UEFI](assets/core-badges/uefi.svg) ![RISC-V](https://img.shields.io/badge/RISC--V-20252B?style=flat-square&logo=riscv&logoColor=white) ![QEMU](https://img.shields.io/badge/QEMU-20252B?style=flat-square&logo=qemu&logoColor=white)
-
-**Build and debugging**
-
-![Git](https://img.shields.io/badge/Git-20252B?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-20252B?style=flat-square&logo=githubactions&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-20252B?style=flat-square&logo=cmake&logoColor=white) ![GCC](https://img.shields.io/badge/GCC-20252B?style=flat-square&logo=gnu&logoColor=white) ![Clang](https://img.shields.io/badge/Clang-20252B?style=flat-square&logo=llvm&logoColor=white) ![MSVC](assets/core-badges/msvc.svg) ![Cargo](https://img.shields.io/badge/Cargo-20252B?style=flat-square&logo=rust&logoColor=white)
-
-**Hardware**
-
-![KiCad](https://img.shields.io/badge/KiCad-20252B?style=flat-square&logo=kicad&logoColor=white) ![CH341A](assets/core-badges/ch341a.svg) ![PCB Design](assets/core-badges/pcb-design.svg) ![FPGA](assets/core-badges/fpga.svg) ![USB 2.0](assets/core-badges/usb-2.svg) ![USB 3.0](assets/core-badges/usb-3.svg) ![USB 3.2 Gen 1](assets/core-badges/usb-3-2-gen1.svg) ![RP2040](https://img.shields.io/badge/RP2040-20252B?style=flat-square&logo=raspberrypi&logoColor=white) ![BIOSTAR](assets/core-badges/biostar.svg)
-
-[Projects](#projects) · [Bench notes](#bench-notes) · [Experience](#where-the-experience-comes-from) · [DByte website](https://dbytelang.site)
+[Projects](#projects) · [Core stack](#core-stack) · [Bench notes](#bench-notes) · [Experience](#where-the-experience-comes-from) · [DByte website](https://dbytelang.site)
 
 ## Projects
 
 Everything here has a public repository. Some projects are released tools, others are experiments with unfinished edges. I've left those edges visible.
 
-### Languages, operating systems and executable formats
+### Start here
 
 **[DBYTE](https://github.com/Deadbytes101/DBYTE)** — My programming language. Lexer, parser, type checker, interpreter, bytecode compiler, VM and native code experiments. There is also a freestanding kernel path and a separate kernel lab. The public repository is a working snapshot; it doesn't pretend to contain every later experiment.
 
 **[BONEBOX-01](https://github.com/Deadbytes101/BONEBOX-01)** — A small x86 real-mode system starting at the boot sector, with a resident nucleus, disk-loaded shell, filesystem and executable format. The repository records 99 passing host tests and an interactive QEMU boot.
+
+**[A780L3B BIOS research](https://github.com/Deadbytes101/dbyte-a780l3b-bios-research)** — ROM dumps, disassembly, patched firmware, hashes and recovery notes for a BIOSTAR motherboard. This is where the CH341A programmer and real chip reads matter more than a plausible-looking hex edit.
+
+<details>
+<summary>See the other 20 projects</summary>
+
+### Languages, operating systems and executable formats
 
 **[LOOM](https://github.com/Deadbytes101/LOOM)** — Trying a different OS structure on x86-64. Cells replace one another and the bootstrap gives up ownership. Some stages have machine traces; others are still open problems. It isn't a finished general-purpose OS.
 
@@ -78,8 +65,6 @@ Everything here has a public repository. Some projects are released tools, other
 
 **[USBDEADFLASH](https://github.com/Deadbytes101/USBDEADFLASH)** — Designing a USB 3.0 flash drive from the electrical side. Connector, controller, NAND, controlled impedance, power and KiCad layout. Still engineering work, not a shipping flash drive.
 
-**[A780L3B BIOS research](https://github.com/Deadbytes101/dbyte-a780l3b-bios-research)** — ROM dumps, disassembly, patched firmware, hashes and recovery notes for a BIOSTAR motherboard. This is where the CH341A programmer and real chip reads matter more than a plausible-looking hex edit.
-
 ### Other work
 
 **[RIGOS](https://github.com/Deadbytes101/RIGOS)** — A local-first USB-bootable CPU mining appliance under development, with its own hardware and software acceptance work.
@@ -88,7 +73,37 @@ Everything here has a public repository. Some projects are released tools, other
 
 **[Shower Game remaster study](https://github.com/Deadbytes101/shower-game-remastered-2015)** — Source provenance and clean-room planning around a 2015 game. It's a research repository, not a playable remake or a mirror of someone else's game files.
 
+</details>
+
+## Core stack
+
+<details>
+<summary>Languages, systems, build tools and hardware — 37 badges</summary>
+
+I don't use all of this every day. These are the things I've actually worked with.
+
+**Languages**
+
+![C17](https://img.shields.io/badge/C17-20252B?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-20252B?style=flat-square&logo=cplusplus&logoColor=white) ![C#](https://img.shields.io/badge/C%23-20252B?style=flat-square&logo=csharp&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-20252B?style=flat-square&logo=rust&logoColor=white) ![x86 Assembly](assets/core-badges/x86-assembly.svg) ![DByte](assets/core-badges/dbyte.svg) ![HolyC](assets/core-badges/holyc.svg) ![Io](assets/core-badges/io.svg) ![Verilog](assets/core-badges/verilog.svg) ![Python](https://img.shields.io/badge/Python-20252B?style=flat-square&logo=python&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-20252B?style=flat-square&logo=powershell&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-20252B?style=flat-square&logo=gnubash&logoColor=white)
+
+**Systems**
+
+![Win32](assets/core-badges/win32.svg) ![Linux](https://img.shields.io/badge/Linux-20252B?style=flat-square&logo=linux&logoColor=white) ![WSL](assets/core-badges/wsl.svg) ![x86](assets/core-badges/x86.svg) ![x86-64](assets/core-badges/x86-64.svg) ![BIOS](assets/core-badges/bios.svg) ![Legacy BIOS](assets/core-badges/legacy-bios.svg) ![UEFI](assets/core-badges/uefi.svg) ![RISC-V](https://img.shields.io/badge/RISC--V-20252B?style=flat-square&logo=riscv&logoColor=white) ![QEMU](https://img.shields.io/badge/QEMU-20252B?style=flat-square&logo=qemu&logoColor=white)
+
+**Build and debugging**
+
+![Git](https://img.shields.io/badge/Git-20252B?style=flat-square&logo=git&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-20252B?style=flat-square&logo=cmake&logoColor=white) ![GCC](https://img.shields.io/badge/GCC-20252B?style=flat-square&logo=gnu&logoColor=white) ![Clang](https://img.shields.io/badge/Clang-20252B?style=flat-square&logo=llvm&logoColor=white) ![MSVC](assets/core-badges/msvc.svg) ![Cargo](https://img.shields.io/badge/Cargo-20252B?style=flat-square&logo=rust&logoColor=white)
+
+**Hardware**
+
+![KiCad](https://img.shields.io/badge/KiCad-20252B?style=flat-square&logo=kicad&logoColor=white) ![CH341A](assets/core-badges/ch341a.svg) ![PCB Design](assets/core-badges/pcb-design.svg) ![FPGA](assets/core-badges/fpga.svg) ![USB 2.0](assets/core-badges/usb-2.svg) ![USB 3.0](assets/core-badges/usb-3.svg) ![USB 3.2 Gen 1](assets/core-badges/usb-3-2-gen1.svg) ![RP2040](https://img.shields.io/badge/RP2040-20252B?style=flat-square&logo=raspberrypi&logoColor=white) ![BIOSTAR](assets/core-badges/biostar.svg)
+
+</details>
+
 ## Where the experience comes from
+
+<details>
+<summary>Windows, Linux, BIOS, firmware, software and hardware</summary>
 
 I learned a lot of this by breaking things on my own machines and then trying to understand exactly what broke. That includes BIOS setup and recovery, ROM reading with a CH341A, memory and storage problems, Windows internals, Linux builds, odd boot failures and hardware that refuses to behave like its manual.
 
@@ -99,6 +114,8 @@ On the hardware side I've used KiCad to work through schematics, footprints, bus
 I also work on game mods and runtime investigations, including My Summer Car. Those projects have taught me plenty about debugging code that I didn't originally write, keeping game behavior intact and finding out whether the value shown by a UI comes from a real source.
 
 This is independent engineering and personal research. I'm not inventing a previous employer, a job title or a shipped product to make the page look better.
+
+</details>
 
 ## Bench notes
 
@@ -116,17 +133,6 @@ HARDWARE   measure the real thing before claiming it works
 A passing unit test doesn't prove a PCB works. A benchmark without matching conditions doesn't prove one program is faster. A screenshot isn't a substitute for the program that produced it.
 
 </details>
-
-## GitHub numbers
-
-I don't take these too seriously. If you want to know what actually works, open the code.
-
-<a href="https://github.com/Deadbytes101">
-  <img src="https://github-readme-stats.shion.dev/api?username=Deadbytes101&show_icons=true&theme=github_dark&hide_border=true&hide_title=true" height="160" alt="GitHub activity">
-</a>
-<a href="https://github.com/Deadbytes101?tab=repositories">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Deadbytes101&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="160" alt="Languages used in public GitHub repositories">
-</a>
 
 <details>
 <summary>Courses and certificates</summary>
