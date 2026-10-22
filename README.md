@@ -1,5 +1,3 @@
-# WHO IS DEADBYTE?
-
 I like computers I can take apart. Old PCs, boot sectors, ROM dumps, weird bugs. That's the stuff I keep coming back to.
 
 C, Rust and assembly are what I reach for most. I've written compilers, tiny operating systems and Windows tools. I've also drawn boards that still need their first power-on. Sometimes I build something to learn how it works. Sometimes the existing tool just gets on my nerves.
