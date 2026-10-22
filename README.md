@@ -6,11 +6,25 @@ C, Rust and assembly are what I reach for most. I've written compilers, tiny ope
 
 **If I can't figure out what a program is doing, I'll probably write a smaller one.**
 
-![C17](https://img.shields.io/badge/C17-24292F?style=flat-square&logo=c&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-24292F?style=flat-square&logo=rust&logoColor=white)
-![x86 Assembly](https://img.shields.io/badge/x86%20assembly-24292F?style=flat-square)
-![Win32](https://img.shields.io/badge/Win32-24292F?style=flat-square&logo=windows&logoColor=white)
-![KiCad](https://img.shields.io/badge/KiCad-24292F?style=flat-square&logo=kicad&logoColor=white)
+## Core stack
+
+I don't use all of this every day. These are the things I've actually worked with.
+
+**Languages**
+
+![C17](https://img.shields.io/badge/C17-24303C?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-24303C?style=flat-square&logo=cplusplus&logoColor=white) ![C#](https://img.shields.io/badge/C%23-24303C?style=flat-square&logo=csharp&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-24303C?style=flat-square&logo=rust&logoColor=white) ![x86 Assembly](https://img.shields.io/badge/x86%20Assembly-24303C?style=flat-square) ![DByte](https://img.shields.io/badge/DByte-24303C?style=flat-square) ![HolyC](https://img.shields.io/badge/HolyC-24303C?style=flat-square) ![Io](https://img.shields.io/badge/Io-24303C?style=flat-square) ![Verilog](https://img.shields.io/badge/Verilog-24303C?style=flat-square) ![Python](https://img.shields.io/badge/Python-24303C?style=flat-square&logo=python&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-24303C?style=flat-square&logo=powershell&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-24303C?style=flat-square&logo=gnubash&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-24303C?style=flat-square&logo=javascript&logoColor=white)
+
+**Systems**
+
+![Win32](https://img.shields.io/badge/Win32-263A49?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-263A49?style=flat-square&logo=linux&logoColor=white) ![WSL](https://img.shields.io/badge/WSL-263A49?style=flat-square) ![x86](https://img.shields.io/badge/x86-263A49?style=flat-square) ![x86-64](https://img.shields.io/badge/x86--64-263A49?style=flat-square) ![BIOS](https://img.shields.io/badge/BIOS-263A49?style=flat-square) ![UEFI](https://img.shields.io/badge/UEFI-263A49?style=flat-square) ![RISC-V](https://img.shields.io/badge/RISC--V-263A49?style=flat-square) ![QEMU](https://img.shields.io/badge/QEMU-263A49?style=flat-square&logo=qemu&logoColor=white)
+
+**Build and debugging**
+
+![Git](https://img.shields.io/badge/Git-38352E?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-38352E?style=flat-square&logo=githubactions&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-38352E?style=flat-square&logo=cmake&logoColor=white) ![GCC](https://img.shields.io/badge/GCC-38352E?style=flat-square&logo=gnu&logoColor=white) ![Clang](https://img.shields.io/badge/Clang-38352E?style=flat-square&logo=llvm&logoColor=white) ![MSVC](https://img.shields.io/badge/MSVC-38352E?style=flat-square) ![Cargo](https://img.shields.io/badge/Cargo-38352E?style=flat-square&logo=rust&logoColor=white)
+
+**Hardware**
+
+![KiCad](https://img.shields.io/badge/KiCad-41322E?style=flat-square&logo=kicad&logoColor=white) ![CH341A](https://img.shields.io/badge/CH341A-41322E?style=flat-square) ![PCB Design](https://img.shields.io/badge/PCB%20Design-41322E?style=flat-square) ![FPGA](https://img.shields.io/badge/FPGA-41322E?style=flat-square) ![USB 3.0](https://img.shields.io/badge/USB%203.0-41322E?style=flat-square&logo=usb&logoColor=white) ![RP2040](https://img.shields.io/badge/RP2040-41322E?style=flat-square&logo=raspberrypi&logoColor=white)
 
 [Projects](#projects) · [Bench notes](#bench-notes) · [Experience](#where-the-experience-comes-from) · [DByte website](https://dbytelang.site)
 
