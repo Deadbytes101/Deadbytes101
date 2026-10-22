@@ -1,10 +1,10 @@
-I like computers I can take apart. Old PCs, boot sectors, ROM dumps, weird bugs. That's the stuff I keep coming back to.
+<p align="center">I like computers I can take apart. Old PCs, boot sectors, ROM dumps, weird bugs. That's the stuff I keep coming back to.</p>
 
-C, Rust and assembly are what I reach for most. I've written compilers, tiny operating systems and Windows tools. I've also drawn boards that still need their first power-on. Sometimes I build something to learn how it works. Sometimes the existing tool just gets on my nerves.
+<p align="center">C, Rust and assembly are what I reach for most. I've written compilers, tiny operating systems and Windows tools. I've also drawn boards that still need their first power-on. Sometimes I build something to learn how it works. Sometimes the existing tool just gets on my nerves.</p>
 
-**If I can't figure out what a program is doing, I'll probably write a smaller one.**
+<p align="center"><strong>If I can't figure out what a program is doing, I'll probably write a smaller one.</strong></p>
 
-[Projects](#projects) · [Core stack](#core-stack) · [Bench notes](#bench-notes) · [Experience](#where-the-experience-comes-from) · [DByte website](https://dbytelang.site)
+<p align="center"><a href="#projects">Projects</a> · <a href="#core-stack">Core stack</a> · <a href="#bench-notes">Bench notes</a> · <a href="#where-the-experience-comes-from">Experience</a> · <a href="https://dbytelang.site">DByte website</a></p>
 
 ## Projects
 
