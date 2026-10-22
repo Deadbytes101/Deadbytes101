@@ -1,12 +1,18 @@
 # DEADBYTE
 
-I build software to find out how computers work. Sometimes I get carried away and try to build the computer too.
+I like computers I can take apart. Old PCs, boot sectors, ROM dumps, weird bugs. That's the stuff I keep coming back to.
 
-Most of my work is in C, Rust, assembly and the parts of Windows and Linux that people usually leave alone. I like old PCs, boot code, firmware, tiny programs and hardware I can put a probe on. If a tool gets in the way, I usually end up making another tool.
+C, Rust and assembly are what I reach for most. I've written compilers, tiny operating systems and Windows tools. I've also drawn boards that still need their first power-on. Sometimes I build something to learn how it works. Sometimes the existing tool just gets on my nerves.
 
-Terry A. Davis is a big influence. What I admire is how much of his own machine he understood and how little patience he had for needless complexity. That is the part I try to learn from, not a look to copy.
+Terry A. Davis is my idol. I like that he built his own tools and knew what was going on under the hood. I'm not trying to make another TempleOS. I just want to understand more of the machine myself.
 
-**I write code because I don't want to depend on someone else's black box.**
+**If I can't figure out what a program is doing, I'll probably write a smaller one.**
+
+![C17](https://img.shields.io/badge/C17-24292F?style=flat-square&logo=c&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-24292F?style=flat-square&logo=rust&logoColor=white)
+![x86 Assembly](https://img.shields.io/badge/x86%20assembly-24292F?style=flat-square)
+![Win32](https://img.shields.io/badge/Win32-24292F?style=flat-square&logo=windows&logoColor=white)
+![KiCad](https://img.shields.io/badge/KiCad-24292F?style=flat-square&logo=kicad&logoColor=white)
 
 [Projects](#projects) · [Bench notes](#bench-notes) · [Experience](#where-the-experience-comes-from) · [DByte website](https://dbytelang.site)
 
@@ -98,6 +104,17 @@ HARDWARE   measure the real thing before claiming it works
 A passing unit test doesn't prove a PCB works. A benchmark without matching conditions doesn't prove one program is faster. A screenshot isn't a substitute for the program that produced it.
 
 </details>
+
+## GitHub numbers
+
+I don't take these too seriously. If you want to know what actually works, open the code.
+
+<a href="https://github.com/Deadbytes101">
+  <img src="https://github-readme-stats.shion.dev/api?username=Deadbytes101&show_icons=true&theme=github_dark&hide_border=true&hide_title=true" height="160" alt="GitHub activity">
+</a>
+<a href="https://github.com/Deadbytes101?tab=repositories">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Deadbytes101&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="160" alt="Languages used in public GitHub repositories">
+</a>
 
 <details>
 <summary>Courses and certificates</summary>
