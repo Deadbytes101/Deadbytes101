@@ -1,4 +1,4 @@
-#WHO IS DEADBYTE?
+# WHO IS DEADBYTE?
 
 I like computers I can take apart. Old PCs, boot sectors, ROM dumps, weird bugs. That's the stuff I keep coming back to.
 
