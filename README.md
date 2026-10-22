@@ -147,6 +147,17 @@ A passing unit test doesn't prove a PCB works. A benchmark without matching cond
 
 </details>
 
+## GitHub numbers
+
+I don't take these too seriously. If you want to know what actually works, open the code.
+
+<a href="https://github.com/Deadbytes101">
+  <img src="https://github-readme-stats.shion.dev/api?username=Deadbytes101&show_icons=true&theme=github_dark&hide_border=true&hide_title=true" height="160" alt="GitHub activity">
+</a>
+<a href="https://github.com/Deadbytes101?tab=repositories">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Deadbytes101&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="160" alt="Languages used in public GitHub repositories">
+</a>
+
 ---
 
 You can find the rest of the history in the [public repositories](https://github.com/Deadbytes101?tab=repositories). The code and the failures say more than a profile ever will.
