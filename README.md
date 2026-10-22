@@ -1,131 +1,117 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/deadbyte-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/deadbyte-light.svg">
-  <img src="assets/deadbyte-light.svg" alt="DEADBYTE — systems, firmware, hardware. Read the bytes." width="100%">
-</picture>
-
 # DEADBYTE
 
-**Independent systems engineering · Thailand**  
-C / Rust / x86 assembly / firmware / native Windows / Linux / PCB design
+I build software to find out how computers work. Sometimes I get carried away and try to build the computer too.
 
-I'm interested in the things under the interface: how a program gets loaded, why an instruction behaves the way it does, what a firmware image really contains, and whether a piece of hardware does what its schematic says.
+Most of my work is in C, Rust, assembly and the parts of Windows and Linux that people usually leave alone. I like old PCs, boot code, firmware, tiny programs and hardware I can put a probe on. If a tool gets in the way, I usually end up making another tool.
 
-I've written compilers, boot code, desktop utilities, binary formats, test harnesses and more than a few things that probably already exist. Rebuilding them is how I learn where the sharp edges are. I would rather have a small program I can explain than a large one I have to trust.
+Terry A. Davis is a big influence. What I admire is how much of his own machine he understood and how little patience he had for needless complexity. That is the part I try to learn from, not a look to copy.
 
-Terry A. Davis is a major influence on the way I think about computers. Not because every machine should be TempleOS, but because he took understanding his own stack seriously. That's the part I want to carry forward.
+**I write code because I don't want to depend on someone else's black box.**
 
-> Most people write code to solve problems. I write code because I don't want to depend on anyone else's software.
+[Projects](#projects) · [Bench notes](#bench-notes) · [Experience](#where-the-experience-comes-from) · [DByte website](https://dbytelang.site)
 
-[Projects](#the-projects) · [Engineering notes](#from-the-workbench) · [DByte](https://dbytelang.site) · [All public repositories](https://github.com/Deadbytes101?tab=repositories)
+## Projects
 
-## What I spend my time on
+Everything here has a public repository. Some projects are released tools, others are experiments with unfinished edges. I've left those edges visible.
 
-I work independently across software and hardware. My working environment has included Windows, Linux, WSL, QEMU, old BIOS machines, modern development PCs, logic-level debugging, ROM programmers, and KiCad. I use C17, Rust, assembly, Python, PowerShell and shell scripting as the job requires.
+### Languages, operating systems and executable formats
 
-The interesting work usually crosses a boundary:
+**[DBYTE](https://github.com/Deadbytes101/DBYTE)** — My programming language. Lexer, parser, type checker, interpreter, bytecode compiler, VM and native code experiments. There is also a freestanding kernel path and a separate kernel lab. The public repository is a working snapshot; it doesn't pretend to contain every later experiment.
 
-- **Compilers and operating systems.** Lexing, parsing, type checking, machine code, bytecode VMs, boot sectors, memory management, executable formats, filesystems, and the first screen of text after a machine boots.
-- **Native software.** Win32 windows and controls, disk access, PE images, network sockets, error paths, packaging and rollback. I prefer direct system APIs to dragging in a browser runtime for a small utility.
-- **Firmware and old hardware.** Reading ROMs, comparing raw dumps, looking at disassembly, matching datasheet pins to schematics, tracing power/reset logic and checking what an actual board does.
-- **Graphics.** CPU rasterization, framebuffer formats, fixed-point arithmetic, old GPU architectures and the RTL needed to move pixels without hiding the pipeline.
-- **Testing the claims.** Build logs, exact input/output bytes, hashes, memory traces, readback verification, regression tests and benchmarks with named conditions. A green badge by itself doesn't tell me very much.
+**[BONEBOX-01](https://github.com/Deadbytes101/BONEBOX-01)** — A small x86 real-mode system starting at the boot sector, with a resident nucleus, disk-loaded shell, filesystem and executable format. The repository records 99 passing host tests and an interactive QEMU boot.
 
-I also maintain and troubleshoot my own Windows/Linux machines: boot failures, unstable CPU settings, thermals, storage, memory, firmware and network problems. That work is less glamorous than writing a kernel, but it teaches the same lesson: measure first.
+**[LOOM](https://github.com/Deadbytes101/LOOM)** — Trying a different OS structure on x86-64. Cells replace one another and the bootstrap gives up ownership. Some stages have machine traces; others are still open problems. It isn't a finished general-purpose OS.
 
-## From the workbench
+**[SHINESEA](https://github.com/Deadbytes101/SHINESEA)** — A Rust filesystem image core with contiguous extents, mirrored catalogs, checksums and recovery rules. The tests cover failure cases as well as successful reads. Version 1.0 is not claimed as released.
 
-A few concrete things from the public source trees, rather than a list of technologies I claim to know:
+**[CINDER-16](https://github.com/Deadbytes101/CINDER-16)** — A 16-bit virtual computer written in Io. Fixed-width instructions, deterministic cycle counting, strict image loading and a debugger that can step backward. Mostly built because writing a CPU you can inspect is fun.
 
-| Work | Observed or documented boundary |
-| --- | --- |
-| [BONEBOX-01](https://github.com/Deadbytes101/BONEBOX-01) | x86 real-mode boot sector, nucleus and shell; **99/99** host tests and a documented interactive QEMU boot. |
-| [DEADFLASH](https://github.com/Deadbytes101/DEADFLASH) | C17/Win32 disk-image writer; target revalidation, flush/readback checks and **7/7** CTest checks in the repository's release evidence. |
-| [DEADWIRE-HTTPD](https://github.com/Deadbytes101/DEADWIRE-HTTPD) | Small HTTP/1.0 server; explicit Windows/Linux backends and **21** hostile-path test cases. Benchmarks are tied to specific builds and test lanes. |
-| [S3CORE01](https://github.com/Deadbytes101/S3CORE01) | Four-layer SG2002/RV64 board: **0 DRC violations and 0 unconnected items** in the recorded routed CAD check. **Not physically brought up.** |
-| [CINDER-16](https://github.com/Deadbytes101/CINDER-16) | 16-bit virtual machine in Io with strict image loading, instruction trace and reverse-step debugger. |
-| [A780L3B BIOS research](https://github.com/Deadbytes101/dbyte-a780l3b-bios-research) | ROM comparisons, patched firmware paths, hashes and physical chip-read checks; conclusions are limited to the tested board and firmware revisions. |
+**[DBLYATEM](https://github.com/Deadbytes101/DBLYATEM)** — C experiments with PE images, AMD64 decoding and strict binary verification on Linux. This is low-level groundwork, not a complete Windows compatibility environment.
+
+**[DBYTE-HOLYC-OPT](https://github.com/Deadbytes101/DBYTE-HOLYC-OPT)** — Studying Terry's HolyC optimizer and experimenting with additional transformations around its original intermediate-code passes. The compiler and native backend remain HolyC. Early research, not a replacement compiler.
+
+### Windows tools, networking and small programs
+
+**[DBYTEPAD](https://github.com/Deadbytes101/DBYTEPAD)** — A native Win32 text editor written in C. File operations, find and replace, diffs and optional DByte integration. The size experiments include deliberately tiny executables with different capabilities; the smallest one is not advertised as a full editor.
+
+**[DEADFLASH](https://github.com/Deadbytes101/DEADFLASH)** — A Windows disk-image writer and verifier. It makes the destructive target explicit, checks it again before writing, flushes, reads back and records evidence. The repository documents seven passing CTest checks for its qualified build.
+
+**[DEADBYTE-RECLAIM](https://github.com/Deadbytes101/DEADBYTE-RECLAIM)** — Plain Win32 software inventory, uninstall and rollback. The graphical interface isn't a second privileged implementation; it passes an operation plan to the CLI and checks what comes back.
+
+**[DBNET](https://github.com/Deadbytes101/DBNET)** — Windows network measurements and diagnosis, including throughput probes and controlled network changes. It keeps package provenance and requires consent before tests that disclose data to an external measurement service.
+
+**[DEADWIRE-HTTPD](https://github.com/Deadbytes101/DEADWIRE-HTTPD)** — A deliberately small HTTP/1.0 static server with assembly-oriented backends. I spend more time on bad paths, request bytes and measured hot paths than on features a small server doesn't need.
+
+**[BYTE-KEEPER](https://github.com/Deadbytes101/BYTE-KEEPER)** — M0TE, a tiny digital creature living in a native Rust program. A persistent habitat, a small simulated room and a taskbar companion. A strange one, but it's a real program with state and tests.
+
+### Pixels and graphics hardware
+
+**[DEADGL](https://github.com/Deadbytes101/DEADGL)** — A C99 software renderer. Text commands go in; framebuffer pixels, PPM output and deterministic hashes come out. The interesting part is seeing every step between the command and the pixel.
+
+**[DGP-1](https://github.com/Deadbytes101/DGP-1)** — Fixed-function graphics processor research inspired by older GPU designs. Command FIFO, triangle coverage, texture units, scanout, memory arbitration, RTL and software reference models. There is no finished physical graphics card.
+
+**[dbyte-dbpx](https://github.com/Deadbytes101/dbyte-dbpx)** — My own small lossless raster-image format. Simple chunks, explicit pixel formats and a decoder you can audit without needing a giant image library.
+
+### Boards, firmware and old PCs
+
+**[DBYTE-370](https://github.com/Deadbytes101/DBYTE-370)** — A Socket 370 ATX motherboard design for a Pentium III and VIA chipsets. CPU and chipset pin contracts, SDRAM, AGP, power delivery, clocks and reset are the actual work. It is still a design, not a board I've powered on.
+
+**[S3CORE01](https://github.com/Deadbytes101/S3CORE01)** — A small RV64 computer built around the SG2002. The routed four-layer CAD revision records zero DRC violations and zero unconnected items. That is a PCB check, not evidence of a manufactured board or a successful Linux boot.
+
+**[USBDEADFLASH](https://github.com/Deadbytes101/USBDEADFLASH)** — Designing a USB 3.0 flash drive from the electrical side. Connector, controller, NAND, controlled impedance, power and KiCad layout. Still engineering work, not a shipping flash drive.
+
+**[A780L3B BIOS research](https://github.com/Deadbytes101/dbyte-a780l3b-bios-research)** — ROM dumps, disassembly, patched firmware, hashes and recovery notes for a BIOSTAR motherboard. This is where the CH341A programmer and real chip reads matter more than a plausible-looking hex edit.
+
+### Other work
+
+**[RIGOS](https://github.com/Deadbytes101/RIGOS)** — A local-first USB-bootable CPU mining appliance under development, with its own hardware and software acceptance work.
+
+**[JOBSIM-DESKTOP](https://github.com/Deadbytes101/JOBSIM-DESKTOP)** — Native keyboard and mouse compatibility work for Job Simulator. Kept as an archived engineering alpha, not presented as a finished release.
+
+**[Shower Game remaster study](https://github.com/Deadbytes101/shower-game-remastered-2015)** — Source provenance and clean-room planning around a 2015 game. It's a research repository, not a playable remake or a mirror of someone else's game files.
+
+## Where the experience comes from
+
+I learned a lot of this by breaking things on my own machines and then trying to understand exactly what broke. That includes BIOS setup and recovery, ROM reading with a CH341A, memory and storage problems, Windows internals, Linux builds, odd boot failures and hardware that refuses to behave like its manual.
+
+On the software side I've worked through parsers, linkers and executable formats, Win32 messages and controls, disk access, sockets, bytecode VMs, x86 boot stages, interrupt handling, fixed-point graphics and native testing. I use debuggers, disassemblers, QEMU, compiler warnings, regression tests and raw binary comparisons. The tools change; the habit of checking the bytes doesn't.
+
+On the hardware side I've used KiCad to work through schematics, footprints, buses, layer stacks, power nets and DRC. I've checked pin maps against component documentation, studied old chipsets and firmware, and experimented with small stepper motors and salvaged hardware. CAD work and simulation are useful, but I don't call them a working physical board.
+
+I also work on game mods and runtime investigations, including My Summer Car. Those projects have taught me plenty about debugging code that I didn't originally write, keeping game behavior intact and finding out whether the value shown by a UI comes from a real source.
+
+This is independent engineering and personal research. I'm not inventing a previous employer, a job title or a shipped product to make the page look better.
+
+## Bench notes
 
 <details>
-<summary><b>My bench rule</b> — the short version</summary>
+<summary>What I count as proof</summary>
 
 ```text
-READ THE SOURCE
-READ THE DATASHEET
-READ THE BYTES
-
-BUILD  ->  RUN  ->  MEASURE  ->  VERIFY
-
-NO RESULT WITHOUT A TEST.
-NO HARDWARE CLAIM WITHOUT HARDWARE.
-NO "FASTER" WITHOUT A FAIR BENCHMARK.
+SOURCE     identify the exact revision
+BUILD      record what compiled
+RUN        keep the output and failures
+COMPARE    check bytes, hashes and behavior
+HARDWARE   measure the real thing before claiming it works
 ```
+
+A passing unit test doesn't prove a PCB works. A benchmark without matching conditions doesn't prove one program is faster. A screenshot isn't a substitute for the program that produced it.
 
 </details>
 
-## The projects
-
-These are the **23 public project repositories** in my GitHub inventory, grouped so you can find something without scrolling through a wall of logos. Some are released tools; others are research, unfinished hardware, or deliberately frozen experiments. Their own READMEs describe what actually works.
-
-### Languages, operating systems, machines
-
-- **[DBYTE](https://github.com/Deadbytes101/DBYTE)** — My systems language and toolchain: lexer, parser, type checker, interpreter, bytecode compiler/VM, native experiments and a separate kernel lab. The public tree is a working snapshot, not every private development branch.
-- **[BONEBOX-01](https://github.com/Deadbytes101/BONEBOX-01)** — A boot-sector-up x86 real-mode system with a small nucleus, transient shell, BFS1 filesystem and BEX1 executable overlay. I wanted to see how much machine I could own in a tiny address space.
-- **[LOOM](https://github.com/Deadbytes101/LOOM)** — An x86-64 operating-engine experiment built from replaceable cells rather than a conventional resident kernel. Fault handling and generational replacement are ongoing work.
-- **[SHINESEA](https://github.com/Deadbytes101/SHINESEA)** — Rust filesystem-image core with contiguous extents, checksums, mirrored catalogs and recovery rules. Verification is ahead of the planned 1.0 release.
-- **[CINDER-16](https://github.com/Deadbytes101/CINDER-16)** — A small 16-bit virtual machine written in Io: fixed instructions, deterministic execution, a debugger that can go backwards.
-- **[DBLYATEM](https://github.com/Deadbytes101/DBLYATEM)** — C and Linux-side experiments with PE/AMD64 parsing and strict binary-image verification. Not a completed Windows compatibility layer.
-- **[DBYTE-HOLYC-OPT](https://github.com/Deadbytes101/DBYTE-HOLYC-OPT)** — Research on improving HolyC optimization inside the original intermediate-code and native backend structure. This is early, source-level work; Terry's compiler is the reference.
-
-### Native programs and network tools
-
-- **[DBYTEPAD](https://github.com/Deadbytes101/DBYTEPAD)** — A Win32 editor in C with file operations, search, diff and optional DByte integration. Also a size experiment: the tiny releases have different, explicitly stated capabilities.
-- **[DEADFLASH](https://github.com/Deadbytes101/DEADFLASH)** — A USB-image writer, verifier and removable-disk utility. It checks the target again before destructive operations and reads back what it wrote.
-- **[DEADBYTE-RECLAIM](https://github.com/Deadbytes101/DEADBYTE-RECLAIM)** — Windows inventory, uninstall and rollback software. Plain Win32 UI; the CLI owns the mutation policy.
-- **[DBNET](https://github.com/Deadbytes101/DBNET)** — Network diagnostics and throughput probes on Windows, with reproducible package provenance and explicit consent where third-party test services retain data.
-- **[DEADWIRE-HTTPD](https://github.com/Deadbytes101/DEADWIRE-HTTPD)** — A small HTTP/1.0 static server with assembly-heavy paths, strict path handling and measured benchmarks.
-- **[BYTE-KEEPER](https://github.com/Deadbytes101/BYTE-KEEPER)** — M0TE, a tiny digital organism living in a native Rust habitat. Persistent state, a taskbar companion and a deliberately bounded little world.
-
-### Graphics, pixels and silicon
-
-- **[DEADGL](https://github.com/Deadbytes101/DEADGL)** — C99 CPU renderer. A text command stream becomes framebuffer bytes, images and proof hashes. No GPU API required.
-- **[DGP-1](https://github.com/Deadbytes101/DGP-1)** — Fixed-function GPU design: command FIFO, raster rules, two texture lanes, scanout, MMIO and FPGA-targeted RTL. Verification models exist; it is **not** a finished graphics card.
-- **[dbyte-dbpx](https://github.com/Deadbytes101/dbyte-dbpx)** — A simple lossless raster-image format for pixel art, screenshots and debug frames, with a decoder designed to be readable and strict.
-
-### Circuit boards, BIOS and the physical machine
-
-- **[DBYTE-370](https://github.com/Deadbytes101/DBYTE-370)** — A Pentium III Socket 370 ATX motherboard design using VIA north/southbridge chips, SDRAM and AGP. Pin contracts, power and clock questions come before routing.
-- **[S3CORE01](https://github.com/Deadbytes101/S3CORE01)** — An SG2002-based small RV64 computer board. Routed CAD and design-rule evidence exist; first hardware boot remains to be demonstrated.
-- **[USBDEADFLASH](https://github.com/Deadbytes101/USBDEADFLASH)** — A USB 3.0 flash-drive PCB project. Connector, impedance, controller and NAND decisions are engineering problems, not a product photo.
-- **[dbyte-a780l3b-bios-research](https://github.com/Deadbytes101/dbyte-a780l3b-bios-research)** — BIOSTAR A780L3B firmware work: ROM dumps, hex-level differences, register paths and recovery notes. A programmer and a verified read are worth more than a guessed patch.
-
-### Side projects and closed chapters
-
-- **[RIGOS](https://github.com/Deadbytes101/RIGOS)** — A local-first, USB-bootable CPU mining appliance project. Still experimental.
-- **[JOBSIM-DESKTOP](https://github.com/Deadbytes101/JOBSIM-DESKTOP)** — Native keyboard/mouse work for Job Simulator, kept as an engineering-alpha archive after development was closed.
-- **[shower-game-remastered-2015](https://github.com/Deadbytes101/shower-game-remastered-2015)** — A clean-room remake/remaster study. Research and provenance planning, not a finished game or a redistribution of the original assets.
-
-## A note on experience
-
-I don't have a neat division between "software" and "hardware". Writing a loader leads to reading a datasheet. Debugging a disk utility leads to studying caches and write barriers. Designing a board leads back to boot ROMs and reset sequences.
-
-Outside the public repositories, I have also worked on PC fault diagnosis, BIOS and EEPROM reading with a CH341A programmer, a four-layer ESP32-S3 controller-board CAD package, and stepper-driven mechanical experiments. Those are hands-on projects, not claims of finished commercial products.
-
-My tools tend to be unromantic: a text editor, compiler, debugger, multimeter, ROM dump, KiCad, QEMU, and a test log. If a part is still simulated, I say so. If an experiment fails, I keep the evidence.
-
 <details>
-<summary><b>Courses and certificates</b> — links and exact credential types</summary>
+<summary>Courses and certificates</summary>
 
-| Course | Issuer | Record |
+| Coursework | Issuer | Record |
 | --- | --- | --- |
-| [MIPS Computer Architecture and Performance Optimization](https://www.coursera.org/verify/2DSRTVQR57DL) | BITS Pilani / Coursera | Course certificate |
-| [Google IT Support](https://www.coursera.org/verify/professional-cert/KVMFVDKBTTDL) | Google / Coursera | Professional certificate |
-| [IBM IT Support](https://www.coursera.org/verify/professional-cert/GNPDQ9N8IBFD) | IBM / Coursera | Professional certificate |
-| [CompTIA A+ Core 1 coursework](https://www.coursera.org/verify/specialization/MKCQF06B5GH6) | Total Seminars / Coursera | Coursework specialization — **not** CompTIA certification |
-| [Computer and ICT Literacy Skills (45 hours)](https://learner.thaimooc.ac.th/credential-wallet/a98d5c90-68cb-47b2-897e-0ce9aa35da1a/poongsak.phu/public) | Khon Kaen University / Thai MOOC | Certificate of completion |
+| [MIPS Computer Architecture and Performance Optimization](https://www.coursera.org/verify/2DSRTVQR57DL) | BITS Pilani and Coursera | Course certificate |
+| [Google IT Support](https://www.coursera.org/verify/professional-cert/KVMFVDKBTTDL) | Google and Coursera | Professional certificate |
+| [IBM IT Support](https://www.coursera.org/verify/professional-cert/GNPDQ9N8IBFD) | IBM and Coursera | Professional certificate |
+| [CompTIA A+ Core 1 coursework](https://www.coursera.org/verify/specialization/MKCQF06B5GH6) | Total Seminars and Coursera | Coursework specialization, not CompTIA certification |
+| [Computer and ICT Literacy Skills, 45 Hours](https://learner.thaimooc.ac.th/credential-wallet/a98d5c90-68cb-47b2-897e-0ce9aa35da1a/poongsak.phu/public) | Khon Kaen University and Thai MOOC | Certificate of completion |
 
 </details>
 
 ---
 
-*If you want to know whether something works, open the repository. Read the code and the tests. That's why they're there.*
+You can find the rest of the history in the [public repositories](https://github.com/Deadbytes101?tab=repositories). The code and the failures say more than a profile ever will.
