@@ -12,7 +12,7 @@ I don't use all of this every day. These are the things I've actually worked wit
 
 **Languages**
 
-![C17](https://img.shields.io/badge/C17-20252B?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-20252B?style=flat-square&logo=cplusplus&logoColor=white) ![C#](https://img.shields.io/badge/C%23-20252B?style=flat-square&logo=csharp&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-20252B?style=flat-square&logo=rust&logoColor=white) ![x86 Assembly](assets/core-badges/x86-assembly.svg) ![DByte](assets/core-badges/dbyte.svg) ![HolyC](assets/core-badges/holyc.svg) ![Io](assets/core-badges/io.svg) ![Verilog](assets/core-badges/verilog.svg) ![Python](https://img.shields.io/badge/Python-20252B?style=flat-square&logo=python&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-20252B?style=flat-square&logo=powershell&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-20252B?style=flat-square&logo=gnubash&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-20252B?style=flat-square&logo=javascript&logoColor=white)
+![C17](https://img.shields.io/badge/C17-20252B?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-20252B?style=flat-square&logo=cplusplus&logoColor=white) ![C#](https://img.shields.io/badge/C%23-20252B?style=flat-square&logo=csharp&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-20252B?style=flat-square&logo=rust&logoColor=white) ![x86 Assembly](assets/core-badges/x86-assembly.svg) ![DByte](assets/core-badges/dbyte.svg) ![HolyC](assets/core-badges/holyc.svg) ![Io](assets/core-badges/io.svg) ![Verilog](assets/core-badges/verilog.svg) ![Python](https://img.shields.io/badge/Python-20252B?style=flat-square&logo=python&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-20252B?style=flat-square&logo=powershell&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-20252B?style=flat-square&logo=gnubash&logoColor=white)
 
 **Systems**
 
@@ -24,7 +24,7 @@ I don't use all of this every day. These are the things I've actually worked wit
 
 **Hardware**
 
-![KiCad](https://img.shields.io/badge/KiCad-20252B?style=flat-square&logo=kicad&logoColor=white) ![CH341A](assets/core-badges/ch341a.svg) ![PCB Design](assets/core-badges/pcb-design.svg) ![FPGA](assets/core-badges/fpga.svg) ![USB 3.0](assets/core-badges/usb-3.svg) ![RP2040](https://img.shields.io/badge/RP2040-20252B?style=flat-square&logo=raspberrypi&logoColor=white) ![BIOSTAR](assets/core-badges/biostar.svg)
+![KiCad](https://img.shields.io/badge/KiCad-20252B?style=flat-square&logo=kicad&logoColor=white) ![CH341A](assets/core-badges/ch341a.svg) ![PCB Design](assets/core-badges/pcb-design.svg) ![FPGA](assets/core-badges/fpga.svg) ![USB 2.0](assets/core-badges/usb-2.svg) ![USB 3.0](assets/core-badges/usb-3.svg) ![USB 3.2 Gen 1](assets/core-badges/usb-3-2-gen1.svg) ![RP2040](https://img.shields.io/badge/RP2040-20252B?style=flat-square&logo=raspberrypi&logoColor=white) ![BIOSTAR](assets/core-badges/biostar.svg)
 
 [Projects](#projects) · [Bench notes](#bench-notes) · [Experience](#where-the-experience-comes-from) · [DByte website](https://dbytelang.site)
 

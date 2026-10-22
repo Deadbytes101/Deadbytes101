@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71" height="20" viewBox="0 0 71 20" role="img" aria-label="USB 2.0">
+<title>USB 2.0</title><rect width="71" height="20" fill="#20252B"/>
+<g transform="translate(3,3) scale(.58333)" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21V4M12 8l-5 5M12 11l6-5M9 3h6l-3-3zM7 13h-4v4h4zM18 4h3v3h-3z"/></g>
+<text x="24" y="14" fill="#fff" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="10">USB 2.0</text>
+</svg>
