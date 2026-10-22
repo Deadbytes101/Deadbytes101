@@ -16,7 +16,7 @@ I don't use all of this every day. These are the things I've actually worked wit
 
 **Systems**
 
-![Win32](assets/core-badges/win32.svg) ![Linux](https://img.shields.io/badge/Linux-263A49?style=flat-square&logo=linux&logoColor=white) ![WSL](assets/core-badges/wsl.svg) ![x86](assets/core-badges/x86.svg) ![x86-64](assets/core-badges/x86-64.svg) ![BIOS](assets/core-badges/bios.svg) ![UEFI](assets/core-badges/uefi.svg) ![RISC-V](https://img.shields.io/badge/RISC--V-263A49?style=flat-square&logo=riscv&logoColor=white) ![QEMU](https://img.shields.io/badge/QEMU-263A49?style=flat-square&logo=qemu&logoColor=white)
+![Win32](assets/core-badges/win32.svg) ![Linux](https://img.shields.io/badge/Linux-263A49?style=flat-square&logo=linux&logoColor=white) ![WSL](assets/core-badges/wsl.svg) ![x86](assets/core-badges/x86.svg) ![x86-64](assets/core-badges/x86-64.svg) ![BIOS](assets/core-badges/bios.svg) ![Legacy BIOS](assets/core-badges/legacy-bios.svg) ![UEFI](assets/core-badges/uefi.svg) ![BIOSTAR](assets/core-badges/biostar.svg) ![RISC-V](https://img.shields.io/badge/RISC--V-263A49?style=flat-square&logo=riscv&logoColor=white) ![QEMU](https://img.shields.io/badge/QEMU-263A49?style=flat-square&logo=qemu&logoColor=white)
 
 **Build and debugging**
 
