@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="20" viewBox="0 0 63 20" role="img" aria-label="Win32">
+<title>Win32</title><rect width="63" height="20" fill="#263A49"/>
+<g transform="translate(3,3) scale(.58333)" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path fill="#fff" stroke="none" d="M2 5l9-1v7H2zm11-1.2 9-1V11h-9zM2 13h9v7l-9-1zM13 13h9v8l-9-1z"/></g>
+<text x="24" y="14" fill="#fff" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="10">Win32</text>
+</svg>

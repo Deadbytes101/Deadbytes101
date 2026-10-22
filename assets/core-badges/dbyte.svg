@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="20" viewBox="0 0 62 20" role="img" aria-label="DByte">
+<title>DByte</title><rect width="62" height="20" fill="#24303C"/>
+<g transform="translate(3,3) scale(.58333)" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path fill="#1666CB" stroke="none" d="M2 2h13v2h3v3h3v10h-3v3h-3v2H2z"/><path fill="#FFD52B" stroke="none" d="M6 5h7v2h2v10h-2v2H6z"/><path stroke="#1666CB" d="M10 8v8"/></g>
+<text x="24" y="14" fill="#fff" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="10">DByte</text>
+</svg>

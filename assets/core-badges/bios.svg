@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="20" viewBox="0 0 55 20" role="img" aria-label="BIOS">
+<title>BIOS</title><rect width="55" height="20" fill="#263A49"/>
+<g transform="translate(3,3) scale(.58333)" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="16" rx="1"/><path d="M3 7h3M3 11h3M3 15h3M3 19h3m15-12h3m-3 4h3m-3 4h3m-3 4h3M9 9h6v6H9z"/><circle cx="8.4" cy="6.5" r=".7" fill="#fff" stroke="none"/></g>
+<text x="24" y="14" fill="#fff" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="10">BIOS</text>
+</svg>
