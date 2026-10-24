@@ -109,7 +109,7 @@ research only and not a playable remake or a copy of someone else's files
 ## core stack
 
 <details>
-<summary>languages systems tools and hardware — 37 badges</summary>
+<summary>languages systems tools and hardware </summary>
 
 i do not use all of this every day
 this is the stuff i have actually worked with
